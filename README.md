@@ -19,3 +19,5 @@ helm upgrade --install estafette-cloudflare-dns estafette/estafette-cloudflare-d
 | Chart         | Description   |
 | ------------- | ------------- |
 | [estafette-cloudflare-dns](https://github.com/estafette/estafette-cloudflare-dns) | Kubernetes controller to set and update dns records in Cloudflare for annotated services and ingresses |
+| [estafette-letsencrypt-certificate](https://github.com/estafette/estafette-letsencrypt-certificate) | Kubernetes controller to retrieve and renews tls certificates from Letsencrypt for annotated Kubernetes secrets |
+| [estafette-gke-preemptible-killer](https://github.com/estafette/estafette-gke-preemptible-killer) | Kubernetes controller to spread preemption for preemtible VMs in GKE to avoid mass deletion after 24 hours |
