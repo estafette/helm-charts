@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   estafette-cloudflare-dns:
   - apiVersion: v1
+    appVersion: 1.2.57-add-official-helm-chart
+    created: "2019-11-05T13:14:33.380306633Z"
+    description: Kubernetes controller to set and update dns records in Cloudflare
+      for annotated services and ingresses
+    digest: c3c8fab63b442e1085e0159ebd0eb1af08fcc86fd9d6671ba08da212a290a62c
+    name: estafette-cloudflare-dns
+    urls:
+    - https://helm.estafette.io/charts/estafette-cloudflare-dns-1.2.0-pre-57.tgz
+    version: 1.2.0-pre-57
+  - apiVersion: v1
     appVersion: 1.2.56-add-official-helm-chart
-    created: "2019-11-05T13:03:44.227673941Z"
+    created: "2019-11-05T13:14:33.3799517Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: f97cbf3a0ddcf82fdd8c0d14a6deca04af10b44fe3797cc529fe4c2c930858b3
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://helm.estafette.io/charts/estafette-cloudflare-dns-1.2.0-pre-56.tgz
     version: 1.2.0-pre-56
-generated: "2019-11-05T13:03:44.227036361Z"
+generated: "2019-11-05T13:14:33.379315745Z"
