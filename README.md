@@ -1,8 +1,10 @@
-# helm.estafette.io
+# Official Estafette Helm repository
 
 Welcome at the official Helm repository for Estafette.
 
-To start using helm charts from this repository run the following command
+## Installation
+
+To start using the Helm charts from this repository run the following command
 
 ```bash
 helm repo add estafette https://helm.estafette.io
@@ -11,13 +13,37 @@ helm repo add estafette https://helm.estafette.io
 From here on you can install or upgrade helm charts as follows
 
 ```bash
-helm upgrade --install estafette-cloudflare-dns estafette/estafette-cloudflare-dns --namespace estafette
-helm upgrade --install estafette-letsencrypt-certificate estafette/estafette-letsencrypt-certificate --namespace estafette
-helm upgrade --install estafette-gke-preemptible-killer estafette/estafette-gke-preemptible-killer --namespace estafette
-helm upgrade --install estafette-k8s-hpa-scaler estafette/estafette-k8s-hpa-scaler --namespace estafette
+helm upgrade --install estafette-cloudflare-dns estafette/estafette-cloudflare-dns --namespace estafette --wait
+helm upgrade --install estafette-letsencrypt-certificate estafette/estafette-letsencrypt-certificate --namespace estafette --wait
+helm upgrade --install estafette-gke-preemptible-killer estafette/estafette-gke-preemptible-killer --namespace estafette --wait
+helm upgrade --install estafette-k8s-hpa-scaler estafette/estafette-k8s-hpa-scaler --namespace estafette --wait
 ```
 
-## charts
+## Local testing
+
+If you'd like to test these Helm charts on your local machine first, follow the instructions below.
+
+Prepare your Mac to run minikube with the following steps
+
+```bash
+brew install hyperkit
+brew install kubernetes-helm
+brew install minikube
+```
+
+Start minikube and configure Helm
+
+```bash
+minikube start --disk-size=50gb --memory=16gb --extra-config=apiserver.authorization-mode=RBAC
+kubectl create clusterrolebinding add-on-cluster-admin --clusterrole=cluster-admin --serviceaccount=kube-system:default
+kubectl -n kube-system create serviceaccount tiller
+kubectl create clusterrolebinding tiller --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+helm init --service-account tiller --wait
+```
+
+From here on you can follow the steps as documented in the installation section above.
+
+# Charts
 
 | Chart         | Description   |
 | ------------- | ------------- |
