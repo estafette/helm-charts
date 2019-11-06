@@ -12,7 +12,7 @@ version:
 
 stages:
   validate-github-pages-build:
-    image: ruby:2.6-alpine
+    image: ruby:2.6-buster
     commands:
     - gem install github-pages
     - bundle exec jekyll build
