@@ -1,0 +1,17 @@
+builder:
+  track: dev
+
+labels:
+  team: estafette-team
+  language: ruby
+
+version:
+  semver:
+    major: 0
+    minor: 0
+
+stages:
+  validate-github-pages-build:
+    image: ruby:2.6.5-alpine3.10
+    commands:
+    - bundle exec jekyll build
