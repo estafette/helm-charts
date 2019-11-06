@@ -15,3 +15,4 @@ stages:
     image: estafette/github-pages:dev
     commands:
     - jekyll build
+    - ls -latr _site
