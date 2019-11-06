@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   estafette-cloudflare-dns:
   - apiVersion: v1
+    appVersion: 1.2.71-add-official-helm-chart
+    created: "2019-11-06T07:59:06.462938921Z"
+    description: Kubernetes controller to set and update dns records in Cloudflare
+      for annotated services and ingresses
+    digest: 058d4aa1d96674396efd707df9fe38ede2274343f681ff0af90afa60057ef94d
+    name: estafette-cloudflare-dns
+    urls:
+    - https://helm.estafette.io/charts/estafette-cloudflare-dns-1.2.0-pre-71.tgz
+    version: 1.2.0-pre-71
+  - apiVersion: v1
     appVersion: 1.2.70-add-official-helm-chart
-    created: "2019-11-06T07:58:48.436066657Z"
+    created: "2019-11-06T07:59:06.462540868Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 413d3fdc393fc8d6e7776f8b900b2efcdd93ce263a8dbcafd9e1239bf297fc82
@@ -13,7 +23,7 @@ entries:
     version: 1.2.0-pre-70
   - apiVersion: v1
     appVersion: 1.2.69-add-official-helm-chart
-    created: "2019-11-06T07:58:48.435615027Z"
+    created: "2019-11-06T07:59:06.462127941Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: aa0b896227d3fe5dfb50d33d52efc811366ea11cdbeda8b4c981df56d3ab266b
@@ -23,7 +33,7 @@ entries:
     version: 1.2.0-pre-69
   - apiVersion: v1
     appVersion: 1.2.68-add-official-helm-chart
-    created: "2019-11-06T07:58:48.435170549Z"
+    created: "2019-11-06T07:59:06.461597152Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: cdc96c3d450ca34777f32061cd110eb0227d4dd4b3d26f25371b947d3dfe272f
@@ -33,7 +43,7 @@ entries:
     version: 1.2.0-pre-68
   - apiVersion: v1
     appVersion: 1.2.67-add-official-helm-chart
-    created: "2019-11-06T07:58:48.43467609Z"
+    created: "2019-11-06T07:59:06.460700866Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: cc01c93db6e73bab16515893efa888c1f7aad6e1a024f98a7c51f2f161c7b741
@@ -43,7 +53,7 @@ entries:
     version: 1.2.0-pre-67
   - apiVersion: v1
     appVersion: 1.2.65-add-official-helm-chart
-    created: "2019-11-06T07:58:48.434128003Z"
+    created: "2019-11-06T07:59:06.460194837Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 22844917069a9dd167f9122253ab2b0fb6e513dd9c4b521644979bbcde655819
@@ -53,7 +63,7 @@ entries:
     version: 1.2.0-pre-65
   - apiVersion: v1
     appVersion: 1.2.64-add-official-helm-chart
-    created: "2019-11-06T07:58:48.433649449Z"
+    created: "2019-11-06T07:59:06.459753927Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 25bd2544ead6968bb0d358d6952ee0d44bc242e0de735dd3f389d5b04fa2008f
@@ -63,7 +73,7 @@ entries:
     version: 1.2.0-pre-64
   - apiVersion: v1
     appVersion: 1.2.63-add-official-helm-chart
-    created: "2019-11-06T07:58:48.433218976Z"
+    created: "2019-11-06T07:59:06.45914575Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 3fa4bd83c7850a2b7de276df1a8130e533bc2434217c8f6b4d9a0246b5fb338a
@@ -73,7 +83,7 @@ entries:
     version: 1.2.0-pre-63
   - apiVersion: v1
     appVersion: 1.2.58-add-official-helm-chart
-    created: "2019-11-06T07:58:48.432776756Z"
+    created: "2019-11-06T07:59:06.458605962Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 38eb4531675a53089d3848fbadcb9c05833c8b8690d62aa2e115123c4c27c109
@@ -83,7 +93,7 @@ entries:
     version: 1.2.0-pre-58
   - apiVersion: v1
     appVersion: 1.2.57-add-official-helm-chart
-    created: "2019-11-06T07:58:48.432214024Z"
+    created: "2019-11-06T07:59:06.45811702Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: c3c8fab63b442e1085e0159ebd0eb1af08fcc86fd9d6671ba08da212a290a62c
@@ -93,7 +103,7 @@ entries:
     version: 1.2.0-pre-57
   - apiVersion: v1
     appVersion: 1.2.56-add-official-helm-chart
-    created: "2019-11-06T07:58:48.431691551Z"
+    created: "2019-11-06T07:59:06.457587657Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: f97cbf3a0ddcf82fdd8c0d14a6deca04af10b44fe3797cc529fe4c2c930858b3
@@ -104,7 +114,7 @@ entries:
   estafette-gke-preemptible-killer:
   - apiVersion: v1
     appVersion: 1.2.60-add-official-helm-chart
-    created: "2019-11-06T07:58:48.437456939Z"
+    created: "2019-11-06T07:59:06.464278982Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: b72499c92a1ca65da75399d274e784ece86b163525853892d7c9f4554707804f
@@ -114,7 +124,7 @@ entries:
     version: 1.2.0-pre-60
   - apiVersion: v1
     appVersion: 1.2.59-add-official-helm-chart
-    created: "2019-11-06T07:58:48.436993664Z"
+    created: "2019-11-06T07:59:06.463857583Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 4994dc65781fa218f4f75d877152db6a5eb371b2933e92c55f33d18bd2652ec5
@@ -124,7 +134,7 @@ entries:
     version: 1.2.0-pre-59
   - apiVersion: v1
     appVersion: 1.2.58-add-official-helm-chart
-    created: "2019-11-06T07:58:48.436522907Z"
+    created: "2019-11-06T07:59:06.463405511Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 3b8f98a2ffc24e98447e45202c11cbcf771d7031ff49dc2474ba301ea795dfdf
@@ -132,4 +142,4 @@ entries:
     urls:
     - https://helm.estafette.io/charts/estafette-gke-preemptible-killer-1.2.0-pre-58.tgz
     version: 1.2.0-pre-58
-generated: "2019-11-06T07:58:48.430922545Z"
+generated: "2019-11-06T07:59:06.456714505Z"
