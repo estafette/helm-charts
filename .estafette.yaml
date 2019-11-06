@@ -13,6 +13,7 @@ version:
 stages:
   trigger-github-pages-build:
     image: extensions/github-pages:dev
+    token: estafette.secret(N-zMCcPQnKYI5Km4.P3AN60mmox8JRoUpFxCdWGsL8CAmvVJ_2inVz7TV4stWN_pdu4xb3TIvvRXyEYP0dFwEzIthYsQ=)
     when:
       status == 'succeeded' &&
       branch == 'master'
