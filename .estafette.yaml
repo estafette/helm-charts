@@ -12,7 +12,6 @@ version:
 
 stages:
   validate-github-pages-build:
-    image: ruby:2.3-slim
+    image: ruby:2.6-alpine3.10
     commands:
-    - bundle install
     - bundle exec jekyll build
