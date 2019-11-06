@@ -12,7 +12,6 @@ version:
 
 stages:
   validate-github-pages-build:
-    image: ruby:2.6.5-stretch
+    image: ruby:2.6-alpine
     commands:
-    - bundle install --gemfile=./Gemfile
     - bundle exec jekyll build
