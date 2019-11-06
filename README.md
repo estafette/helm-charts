@@ -9,6 +9,12 @@ To start using the Helm charts from this repository run the following command
 helm repo add estafette https://helm.estafette.io
 ```
 
+To view all available charts in the repository run
+
+```bash
+helm search estafette/
+```
+
 From here on you can install or upgrade helm charts as follows
 
 ```bash
