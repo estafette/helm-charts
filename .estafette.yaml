@@ -11,8 +11,8 @@ version:
     minor: 0
 
 stages:
-  validate-github-pages-build:
-    image: estafette/github-pages:dev
-    commands:
-    - jekyll build
-    - ls -latr _site
+  trigger-github-pages-build:
+    image: extensions/github-pages:dev
+    when:
+      status == 'succeeded' &&
+      branch == 'master'
