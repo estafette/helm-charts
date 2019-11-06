@@ -1,4 +1,3 @@
-# Official Estafette Helm repository
 
 Welcome at the official Helm repository for Estafette.
 
