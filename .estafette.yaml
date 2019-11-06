@@ -14,4 +14,4 @@ stages:
   validate-github-pages-build:
     image: estafette/github-pages:dev
     commands:
-    - bundle exec jekyll build
+    - jekyll build
