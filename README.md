@@ -37,9 +37,10 @@ If you'd like to test these Helm charts on your local machine first, follow the 
 Prepare your Mac to run minikube with the following steps
 
 ```bash
-brew install hyperkit
-brew install kubernetes-helm
 brew install minikube
+brew install hyperkit
+minikube config set vm-driver hyperkit
+brew install kubernetes-helm
 ```
 
 Start minikube and configure Helm
