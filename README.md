@@ -39,14 +39,22 @@ Prepare your Mac to run minikube with the following steps
 ```bash
 brew install minikube
 brew install hyperkit
-minikube config set vm-driver hyperkit
 brew install kubernetes-helm
 ```
 
-Start minikube and configure Helm
+Configure some defaults for minikube
 
 ```bash
-minikube start --disk-size=50gb --memory=16gb --extra-config=apiserver.authorization-mode=RBAC
+minikube config set vm-driver hyperkit
+minikube config set cpus 2
+minikube config set memory 16384
+minikube config set disk-size 50gb
+```
+
+Start minikube with RBAC enabled and configure Helm
+
+```bash
+minikube start --extra-config=apiserver.authorization-mode=RBAC
 kubectl create clusterrolebinding add-on-cluster-admin --clusterrole=cluster-admin --serviceaccount=kube-system:default
 kubectl -n kube-system create serviceaccount tiller
 kubectl create clusterrolebinding tiller --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
