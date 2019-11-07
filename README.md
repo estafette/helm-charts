@@ -42,7 +42,7 @@ brew install hyperkit
 brew install kubernetes-helm
 ```
 
-Configure some defaults for minikube
+Configure some defaults for minikube (optional)
 
 ```bash
 minikube config set vm-driver hyperkit
