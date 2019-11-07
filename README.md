@@ -24,7 +24,8 @@ helm upgrade --install estafette-letsencrypt-certificate estafette/estafette-let
 helm upgrade --install estafette-gke-preemptible-killer estafette/estafette-gke-preemptible-killer --namespace estafette --wait
 helm upgrade --install estafette-k8s-hpa-scaler estafette/estafette-k8s-hpa-scaler --namespace estafette --wait
 helm upgrade --install estafette-gcp-service-account estafette/estafette-gcp-service-account --namespace estafette --wait
-helm upgrade --install estafette-gcloud-quota-exporter estafette/estafette-gcloud-quota-exporter --namespace estafette-gcloud-quota-exporter --wait
+helm upgrade --install estafette-gcloud-quota-exporter estafette/estafette-gcloud-quota-exporter --namespace estafette --wait
+helm upgrade --install estafette-google-cloud-dns estafette/estafette-google-cloud-dns --namespace estafette --wait
 ```
 
 ## Local testing
@@ -61,3 +62,4 @@ From here on you can follow the steps as documented in the installation section 
 | [estafette-k8s-hpa-scaler](https://github.com/estafette/estafette-k8s-hpa-scaler) | Kubernetes controller to set minimum replicas from a Prometheus query on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case of errors |
 | [estafette-gcp-service-account](https://github.com/estafette/estafette-gcp-service-account) | Kubernetes controller to fetch GCP service account keyfiles for annotated secrets |
 | [estafette-gcloud-quota-exporter](https://github.com/estafette/estafette-gcloud-quota-exporter) | Prometheus exporter to turn Google Cloud quota into Prometheus timeline series |
+| [estafette-google-cloud-dns](https://github.com/estafette/estafette-google-cloud-dns) | Kubernetes controller to update dns record in a Google Cloud DNS zone for annotated services and ingresses |
