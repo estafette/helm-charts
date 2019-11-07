@@ -24,6 +24,7 @@ helm upgrade --install estafette-letsencrypt-certificate estafette/estafette-let
 helm upgrade --install estafette-gke-preemptible-killer estafette/estafette-gke-preemptible-killer --namespace estafette --wait
 helm upgrade --install estafette-k8s-hpa-scaler estafette/estafette-k8s-hpa-scaler --namespace estafette --wait
 helm upgrade --install estafette-gcp-service-account estafette/estafette-gcp-service-account --namespace estafette --wait
+helm upgrade --install estafette-gcloud-quota-exporter estafette/estafette-gcloud-quota-exporter --namespace estafette-gcloud-quota-exporter --wait
 ```
 
 ## Local testing
@@ -59,3 +60,4 @@ From here on you can follow the steps as documented in the installation section 
 | [estafette-gke-preemptible-killer](https://github.com/estafette/estafette-gke-preemptible-killer) | Kubernetes controller to spread preemption for preemtible VMs in GKE to avoid mass deletion after 24 hours |
 | [estafette-k8s-hpa-scaler](https://github.com/estafette/estafette-k8s-hpa-scaler) | Kubernetes controller to set minimum replicas from a Prometheus query on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case of errors |
 | [estafette-gcp-service-account](https://github.com/estafette/estafette-gcp-service-account) | Kubernetes controller to fetch GCP service account keyfiles for annotated secrets |
+| [estafette-gcloud-quota-exporter](https://github.com/estafette/estafette-gcloud-quota-exporter) | Prometheus exporter to turn Google Cloud quota into Prometheus timeline series |
