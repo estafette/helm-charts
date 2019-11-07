@@ -26,6 +26,7 @@ helm upgrade --install estafette-k8s-hpa-scaler estafette/estafette-k8s-hpa-scal
 helm upgrade --install estafette-gcp-service-account estafette/estafette-gcp-service-account --namespace estafette --wait
 helm upgrade --install estafette-gcloud-quota-exporter estafette/estafette-gcloud-quota-exporter --namespace estafette --wait
 helm upgrade --install estafette-google-cloud-dns estafette/estafette-google-cloud-dns --namespace estafette --wait
+helm upgrade --install estafette-gcloud-mig-scaler estafette/estafette-gcloud-mig-scaler --namespace estafette --wait
 ```
 
 ## Local testing
@@ -63,3 +64,4 @@ From here on you can follow the steps as documented in the installation section 
 | [estafette-gcp-service-account](https://github.com/estafette/estafette-gcp-service-account) | Kubernetes controller to fetch GCP service account keyfiles for annotated secrets |
 | [estafette-gcloud-quota-exporter](https://github.com/estafette/estafette-gcloud-quota-exporter) | Prometheus exporter to turn Google Cloud quota into Prometheus timeline series |
 | [estafette-google-cloud-dns](https://github.com/estafette/estafette-google-cloud-dns) | Kubernetes controller to update dns record in a Google Cloud DNS zone for annotated services and ingresses |
+| [estafette-gcloud-mig-scaler](https://github.com/estafette/estafette-gcloud-mig-scaler) | Controller to scale a Google Cloud managed instance groups based on request rate retrieved from Prometheus |
