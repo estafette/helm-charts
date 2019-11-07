@@ -27,6 +27,7 @@ helm upgrade --install estafette-gcp-service-account estafette/estafette-gcp-ser
 helm upgrade --install estafette-gcloud-quota-exporter estafette/estafette-gcloud-quota-exporter --namespace estafette --wait
 helm upgrade --install estafette-google-cloud-dns estafette/estafette-google-cloud-dns --namespace estafette --wait
 helm upgrade --install estafette-gcloud-mig-scaler estafette/estafette-gcloud-mig-scaler --namespace estafette --wait
+helm upgrade --install estafette-gke-node-pool-shifter estafette/estafette-gke-node-pool-shifter --namespace estafette --wait
 ```
 
 ## Local testing
@@ -55,13 +56,14 @@ From here on you can follow the steps as documented in the installation section 
 
 # Charts
 
-| Chart         | Description   |
-| ------------- | ------------- |
-| [estafette-cloudflare-dns](https://github.com/estafette/estafette-cloudflare-dns) | Kubernetes controller to set and update dns records in Cloudflare for annotated services and ingresses |
-| [estafette-letsencrypt-certificate](https://github.com/estafette/estafette-letsencrypt-certificate) | Kubernetes controller to retrieve and renews tls certificates from Letsencrypt for annotated Kubernetes secrets |
-| [estafette-gke-preemptible-killer](https://github.com/estafette/estafette-gke-preemptible-killer) | Kubernetes controller to spread preemption for preemtible VMs in GKE to avoid mass deletion after 24 hours |
-| [estafette-k8s-hpa-scaler](https://github.com/estafette/estafette-k8s-hpa-scaler) | Kubernetes controller to set minimum replicas from a Prometheus query on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case of errors |
-| [estafette-gcp-service-account](https://github.com/estafette/estafette-gcp-service-account) | Kubernetes controller to fetch GCP service account keyfiles for annotated secrets |
-| [estafette-gcloud-quota-exporter](https://github.com/estafette/estafette-gcloud-quota-exporter) | Prometheus exporter to turn Google Cloud quota into Prometheus timeline series |
-| [estafette-google-cloud-dns](https://github.com/estafette/estafette-google-cloud-dns) | Kubernetes controller to update dns record in a Google Cloud DNS zone for annotated services and ingresses |
-| [estafette-gcloud-mig-scaler](https://github.com/estafette/estafette-gcloud-mig-scaler) | Controller to scale a Google Cloud managed instance groups based on request rate retrieved from Prometheus |
+| Chart                                                                                               | Description                                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [estafette-cloudflare-dns](https://github.com/estafette/estafette-cloudflare-dns)                   | Kubernetes controller to set and update dns records in Cloudflare for annotated services and ingresses                                                        |
+| [estafette-letsencrypt-certificate](https://github.com/estafette/estafette-letsencrypt-certificate) | Kubernetes controller to retrieve and renews tls certificates from Letsencrypt for annotated Kubernetes secrets                                               |
+| [estafette-gke-preemptible-killer](https://github.com/estafette/estafette-gke-preemptible-killer)   | Kubernetes controller to spread preemption for preemtible VMs in GKE to avoid mass deletion after 24 hours                                                    |
+| [estafette-k8s-hpa-scaler](https://github.com/estafette/estafette-k8s-hpa-scaler)                   | Kubernetes controller to set minimum replicas from a Prometheus query on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case of errors |
+| [estafette-gcp-service-account](https://github.com/estafette/estafette-gcp-service-account)         | Kubernetes controller to fetch GCP service account keyfiles for annotated secrets                                                                             |
+| [estafette-gcloud-quota-exporter](https://github.com/estafette/estafette-gcloud-quota-exporter)     | Prometheus exporter to turn Google Cloud quota into Prometheus timeline series                                                                                |
+| [estafette-google-cloud-dns](https://github.com/estafette/estafette-google-cloud-dns)               | Kubernetes controller to update dns record in a Google Cloud DNS zone for annotated services and ingresses                                                    |
+| [estafette-gcloud-mig-scaler](https://github.com/estafette/estafette-gcloud-mig-scaler)             | Controller to scale a Google Cloud managed instance groups based on request rate retrieved from Prometheus                                                    |
+| [estafette-gke-node-pool-shifter](https://github.com/estafette/estafette-gke-node-pool-shifter)     | Kubernetes controller that can shift nodes from one node pool to another, to favour for example preemptibles over regular vms                                 |
