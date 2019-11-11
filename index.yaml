@@ -2,8 +2,17 @@ apiVersion: v1
 entries:
   estafette-ci-cron-event-sender:
   - apiVersion: v1
+    appVersion: 1.0.0-add-official-helm-chart-36
+    created: "2019-11-11T15:24:39.190839967Z"
+    description: A Helm chart for Kubernetes
+    digest: b61f66408c93211b57e74e86670117707250763d680a7021d75d97f279a247e4
+    name: estafette-ci-cron-event-sender
+    urls:
+    - https://helm.estafette.io/charts/estafette-ci-cron-event-sender-1.0.0-add-official-helm-chart-36.tgz
+    version: 1.0.0-add-official-helm-chart-36
+  - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-35
-    created: "2019-11-11T15:16:57.440314236Z"
+    created: "2019-11-11T15:24:39.190308684Z"
     description: A Helm chart for Kubernetes
     digest: 05cf3084a0d55bc113b4b783d506457de77f2a7696b897a65af6e4bd6085e630
     name: estafette-ci-cron-event-sender
@@ -13,7 +22,7 @@ entries:
   estafette-cloudflare-dns:
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2019-11-11T15:16:57.441481113Z"
+    created: "2019-11-11T15:24:39.192421915Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 182d7769dea745e02672351cd882ae85a4707468ae9743e9906c8052c0695800
@@ -25,7 +34,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2019-11-11T15:16:57.441145554Z"
+    created: "2019-11-11T15:24:39.1918451Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: bb1e90d9b649fc8d8052fb166f58a6f509d7bc864a24cecf2498125d7b25cd2e
@@ -37,7 +46,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.81
-    created: "2019-11-11T15:16:57.440754057Z"
+    created: "2019-11-11T15:24:39.19135312Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: fdf246261af260e0e05b53295a78b927d40b16dc847270f0197acfd21480342e
@@ -48,7 +57,7 @@ entries:
   estafette-gcloud-mig-scaler:
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2019-11-11T15:16:57.442455677Z"
+    created: "2019-11-11T15:24:39.193965307Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: 88b5feacbb1a1e43694ad1812ddd3f6d689d31082931d52e355c05b3bfe32a4d
@@ -60,7 +69,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2019-11-11T15:16:57.442138767Z"
+    created: "2019-11-11T15:24:39.19346208Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: cbebfe82c0d4d60da44ed8a068c9b36e917dd79ae8fcd32e556eb600838bddbf
@@ -72,7 +81,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.27
-    created: "2019-11-11T15:16:57.441778754Z"
+    created: "2019-11-11T15:24:39.192940331Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: 093eeb859625d195c7a2affeed31e420d87dfb093d999421f6ebd46b921fe853
@@ -83,7 +92,7 @@ entries:
   estafette-gcloud-quota-exporter:
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2019-11-11T15:16:57.443398198Z"
+    created: "2019-11-11T15:24:39.195472449Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: 7cef094bbb6407ee76f3c44a3259d8df0324257f9d2220f6b7238a751ae266e0
@@ -95,7 +104,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2019-11-11T15:16:57.44310453Z"
+    created: "2019-11-11T15:24:39.194938137Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: d1b9b1d1ff834726f3e7acb2a094a0ab3800c38f0a79993f9aaa4007ec97d8ce
@@ -107,7 +116,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.40
-    created: "2019-11-11T15:16:57.442798214Z"
+    created: "2019-11-11T15:24:39.19443064Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: 0a2de79959def00728a929612f5213adedb3fd78f2e18d8e14e6b54a65f38389
@@ -118,7 +127,7 @@ entries:
   estafette-gcp-service-account:
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2019-11-11T15:16:57.445427208Z"
+    created: "2019-11-11T15:24:39.197224133Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: f6fff5f2968bfafb4687eb2c33ad3822482ac3272c67d865f372bdddcff97287
@@ -130,7 +139,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2019-11-11T15:16:57.445068487Z"
+    created: "2019-11-11T15:24:39.196637657Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: f0feefa9d266e6219f16114fbc52e84bae620dc2853e08715b049e23296176ec
@@ -142,7 +151,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.72
-    created: "2019-11-11T15:16:57.444605919Z"
+    created: "2019-11-11T15:24:39.19601371Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: d58c88bda65ab8b831a9af5ff222c079ec0bf0a390d7b1c6a87a43617246c934
@@ -153,7 +162,7 @@ entries:
   estafette-gke-node-pool-shifter:
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2019-11-11T15:16:57.44648049Z"
+    created: "2019-11-11T15:24:39.199029362Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: 6e078aeceaab7062cb6dae22f9522f828707e432586512f4a981c33431a9735b
@@ -165,7 +174,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2019-11-11T15:16:57.446124367Z"
+    created: "2019-11-11T15:24:39.198471383Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: 9ed844f2b1b07748f65e1b048997120fa68dabe3670950a4f6d0ed6a793224a7
@@ -177,7 +186,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.42
-    created: "2019-11-11T15:16:57.445794839Z"
+    created: "2019-11-11T15:24:39.197867131Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: dbd2bd8bce549a8f61115ffd06c1ad3901872726f30cc109132990f5e04eb733
@@ -188,7 +197,7 @@ entries:
   estafette-gke-preemptible-killer:
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2019-11-11T15:16:57.448612651Z"
+    created: "2019-11-11T15:24:39.205585666Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 6862b3383f922ae18be6205a676d8b694718a1f8e5b190874cce892bf1c7eee5
@@ -200,7 +209,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.2-master-92
-    created: "2019-11-11T15:16:57.448263524Z"
+    created: "2019-11-11T15:24:39.204357891Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 6d2b3bbcb0c4550431d379b2190c04b702bc4e891d89a3f391d6a3f8999a6126
@@ -212,7 +221,7 @@ entries:
     version: 1.2.2-master-92
   - apiVersion: v1
     appVersion: 1.2.2-master-91
-    created: "2019-11-11T15:16:57.447912662Z"
+    created: "2019-11-11T15:24:39.201428308Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 7925730877daf189a3d02ced17d52af0ce26136743ab5ac1a74a1b65654dcfca
@@ -224,7 +233,7 @@ entries:
     version: 1.2.2-master-91
   - apiVersion: v1
     appVersion: 1.2.2-b64enc-toggle-90
-    created: "2019-11-11T15:16:57.447532906Z"
+    created: "2019-11-11T15:24:39.200829145Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: ce4b55a9fc3c6ad77c60513c6a10c0495edd4835096490815a05a8fc1ee8b487
@@ -236,7 +245,7 @@ entries:
     version: 1.2.2-b64enc-toggle-90
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2019-11-11T15:16:57.447150201Z"
+    created: "2019-11-11T15:24:39.20025116Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: b34345cf04a2878533a42edbae53bd7cead802d29583ffb1755506128eaab700
@@ -248,7 +257,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.68
-    created: "2019-11-11T15:16:57.446814669Z"
+    created: "2019-11-11T15:24:39.199618477Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: fd61c20a29367af38b24d438b91332f333aebdcd5a90a4f18b9ef318e0218f40
@@ -259,7 +268,7 @@ entries:
   estafette-google-cloud-dns:
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2019-11-11T15:16:57.449655248Z"
+    created: "2019-11-11T15:24:39.207201288Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: 4af2957491e30d2b1a2b92753c3cf0ad153826a557d0cf0af2d11c9928bc63e3
@@ -271,7 +280,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2019-11-11T15:16:57.449305294Z"
+    created: "2019-11-11T15:24:39.206668443Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: 43ee58048e210b57f429be1e3b9922ba474787ae402ce9114b16b17b643a0d10
@@ -283,7 +292,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.29
-    created: "2019-11-11T15:16:57.448977804Z"
+    created: "2019-11-11T15:24:39.206134145Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: b1d5919ca3ce7af58fd1a30f266d996031e88650ea3d19150bc1078d997a1624
@@ -294,7 +303,7 @@ entries:
   estafette-k8s-hpa-scaler:
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2019-11-11T15:16:57.451419305Z"
+    created: "2019-11-11T15:24:39.210001681Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -307,7 +316,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.84
-    created: "2019-11-11T15:16:57.451078327Z"
+    created: "2019-11-11T15:24:39.209429696Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -318,7 +327,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.2.85
-    created: "2019-11-11T15:16:57.450749972Z"
+    created: "2019-11-11T15:24:39.208849886Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -329,7 +338,7 @@ entries:
     version: 1.2.0-pre-85
   - apiVersion: v1
     appVersion: 1.2.84
-    created: "2019-11-11T15:16:57.450302787Z"
+    created: "2019-11-11T15:24:39.208244084Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -340,7 +349,7 @@ entries:
     version: 1.2.0-pre-84
   - apiVersion: v1
     appVersion: 1.2.83-add-official-helm-chart
-    created: "2019-11-11T15:16:57.449978451Z"
+    created: "2019-11-11T15:24:39.207700623Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -352,7 +361,7 @@ entries:
   estafette-letsencrypt-certificate:
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2019-11-11T15:16:57.45303813Z"
+    created: "2019-11-11T15:24:39.212904221Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 2914e73c211050a76899ac90db03fa2cb889c530a114a8c428fda91fddbc1962
@@ -364,7 +373,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2019-11-11T15:16:57.452192133Z"
+    created: "2019-11-11T15:24:39.212275228Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 0e111ebf539fd38fa97eff07d6a370607a2f6ff1246f6689da941accb8b9ab26
@@ -376,7 +385,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.133
-    created: "2019-11-11T15:16:57.451815145Z"
+    created: "2019-11-11T15:24:39.21055925Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 266eb3d5510184e043d05d003355a94bf1312add7e6bcd4505ead781d975f931
@@ -384,4 +393,4 @@ entries:
     urls:
     - https://helm.estafette.io/charts/estafette-letsencrypt-certificate-1.2.0.tgz
     version: 1.2.0
-generated: "2019-11-11T15:16:57.439791419Z"
+generated: "2019-11-11T15:24:39.18955848Z"
