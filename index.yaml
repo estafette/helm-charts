@@ -3,7 +3,7 @@ entries:
   cockroachdb:
   - apiVersion: v1
     appVersion: v19.2.1
-    created: "2020-01-15T10:59:03.293646288Z"
+    created: "2020-01-15T11:08:51.428037599Z"
     description: A Helm chart for Kubernetes
     digest: 59b18ff07dca7b52808011ef74ec083aa02d275968f2f40df7e5d8167ea3f143
     name: cockroachdb
@@ -12,7 +12,7 @@ entries:
     version: 1.0.0-master-45
   - apiVersion: v1
     appVersion: v19.2.1
-    created: "2020-01-15T10:59:03.292785776Z"
+    created: "2020-01-15T11:08:51.426937542Z"
     description: A Helm chart for Kubernetes
     digest: b0a16f7afc23bfa5b8341ba5f378fda83216a9b90f33ae47c42239f0bfcdf6a1
     name: cockroachdb
@@ -21,7 +21,7 @@ entries:
     version: 1.0.0-master-44
   - apiVersion: v1
     appVersion: v19.2.1
-    created: "2020-01-15T10:59:03.291876219Z"
+    created: "2020-01-15T11:08:51.425871152Z"
     description: A Helm chart for Kubernetes
     digest: 39fcf315ff704bb72229649a609f991eeda5b9f0be0ce3a00b28f39d3ae7204b
     name: cockroachdb
@@ -30,7 +30,7 @@ entries:
     version: 1.0.0-master-42
   - apiVersion: v1
     appVersion: v19.2.1
-    created: "2020-01-15T10:59:03.290958591Z"
+    created: "2020-01-15T11:08:51.424841476Z"
     description: A Helm chart for Kubernetes
     digest: 5f9e253321476657d4b9020e980f4e9484684f79e90115876572956ebb35514b
     name: cockroachdb
@@ -39,7 +39,7 @@ entries:
     version: 1.0.0-master-39
   - apiVersion: v1
     appVersion: v19.2.1
-    created: "2020-01-15T10:59:03.28998379Z"
+    created: "2020-01-15T11:08:51.423701458Z"
     description: A Helm chart for Kubernetes
     digest: 9502f3aefe107f51592018aae8eda9f6d20c1e2b379d0c7b24fa6fb701d54c44
     name: cockroachdb
@@ -48,7 +48,7 @@ entries:
     version: 1.0.0-master-38
   - apiVersion: v1
     appVersion: v19.2.0
-    created: "2020-01-15T10:59:03.28905088Z"
+    created: "2020-01-15T11:08:51.422582128Z"
     description: A Helm chart for Kubernetes
     digest: cd6ec3d12121aa185de0728f3307d052ceebb6bfad992d104d6e07c8849362ae
     name: cockroachdb
@@ -57,7 +57,7 @@ entries:
     version: 1.0.0-master-37
   - apiVersion: v1
     appVersion: v19.2.0
-    created: "2020-01-15T10:59:03.287972692Z"
+    created: "2020-01-15T11:08:51.421608286Z"
     description: A Helm chart for Kubernetes
     digest: 3cd7ef4f0dcec03720096f50ffd28ecd0b4302bde1fbf3d261b2249b1c64e043
     name: cockroachdb
@@ -66,7 +66,7 @@ entries:
     version: 1.0.0-master-36
   - apiVersion: v1
     appVersion: v19.2.0
-    created: "2020-01-15T10:59:03.28608142Z"
+    created: "2020-01-15T11:08:51.420619072Z"
     description: A Helm chart for Kubernetes
     digest: 73858e70fc22cd27ec1eea1139d56f7f80af56e6efa340cc42cfa5d5e6522714
     name: cockroachdb
@@ -75,7 +75,7 @@ entries:
     version: 1.0.0-master-35
   - apiVersion: v1
     appVersion: v19.2.0
-    created: "2020-01-15T10:59:03.285081024Z"
+    created: "2020-01-15T11:08:51.419703392Z"
     description: A Helm chart for Kubernetes
     digest: 1d5e59756ac6bf225c53b18eb6217f07400d0afcf6cf644b4043d89b11ac6e1b
     name: cockroachdb
@@ -84,7 +84,7 @@ entries:
     version: 1.0.0-master-34
   - apiVersion: v1
     appVersion: v19.2.0
-    created: "2020-01-15T10:59:03.284039297Z"
+    created: "2020-01-15T11:08:51.418691561Z"
     description: A Helm chart for Kubernetes
     digest: 009c697bfeb1c0a8ed6dd310043532af79201d81ad591b8de77de0cba0a9bbbf
     name: cockroachdb
@@ -94,7 +94,7 @@ entries:
   estafette-ci-api:
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-892
-    created: "2020-01-15T10:59:03.297382764Z"
+    created: "2020-01-15T11:08:51.432721385Z"
     description: Estafette CI - The API component
     digest: cb1ea8bcd9aee18e4779ef30a366e36261155110ce9f1153d8257f26646f8005
     home: https://estafette.io
@@ -105,7 +105,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-892
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-891
-    created: "2020-01-15T10:59:03.295507426Z"
+    created: "2020-01-15T11:08:51.430345777Z"
     description: Estafette CI - The API component
     digest: fbfef70ebe36e8389244c351582ff364914a2626aeea1307d11c7c3eb28e3fa5
     home: https://estafette.io
@@ -117,7 +117,7 @@ entries:
   estafette-ci-cron-event-sender:
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-52
-    created: "2020-01-15T10:59:03.30548515Z"
+    created: "2020-01-15T11:08:51.439868247Z"
     description: A Helm chart for Kubernetes
     digest: 896f3de3ab220342fe0e7ab8a4b865a6ab8c32f7401b2d485960163899d3b2ae
     name: estafette-ci-cron-event-sender
@@ -126,7 +126,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-52
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-50
-    created: "2020-01-15T10:59:03.304998391Z"
+    created: "2020-01-15T11:08:51.439365029Z"
     description: A Helm chart for Kubernetes
     digest: 40b8f990ba4423e49c591b1e5f6797ef648e9b82eb4c82b5edc94662b00c7949
     name: estafette-ci-cron-event-sender
@@ -135,7 +135,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-50
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-49
-    created: "2020-01-15T10:59:03.304529372Z"
+    created: "2020-01-15T11:08:51.438747672Z"
     description: A Helm chart for Kubernetes
     digest: f6e9c16260e6ddac737055570b68664490d63d2a7d85e88c660f400530f84907
     name: estafette-ci-cron-event-sender
@@ -144,7 +144,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-49
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-48
-    created: "2020-01-15T10:59:03.304022162Z"
+    created: "2020-01-15T11:08:51.438228974Z"
     description: A Helm chart for Kubernetes
     digest: 9be5e1fc99cd8936bb6e6f822db20cc2eff48bdf73f6940e27cd83818c966660
     name: estafette-ci-cron-event-sender
@@ -153,7 +153,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-48
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-43
-    created: "2020-01-15T10:59:03.303501333Z"
+    created: "2020-01-15T11:08:51.437759802Z"
     description: A Helm chart for Kubernetes
     digest: 7a9f46a06f82489612fd228ae9d5419065b3afd0c3286d1c1f36cda93aa08ff8
     name: estafette-ci-cron-event-sender
@@ -162,7 +162,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-43
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-42
-    created: "2020-01-15T10:59:03.303006396Z"
+    created: "2020-01-15T11:08:51.437240711Z"
     description: A Helm chart for Kubernetes
     digest: b64cc87555a4cb6045582b0e011eea731a6704670107be204d2f3c6b8a99d5b5
     name: estafette-ci-cron-event-sender
@@ -171,7 +171,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-42
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-41
-    created: "2020-01-15T10:59:03.302518202Z"
+    created: "2020-01-15T11:08:51.436687817Z"
     description: A Helm chart for Kubernetes
     digest: d80a12360fdddfd42645025e4c45cd9441d28563b56d5c3e9d554a99ef87bd71
     name: estafette-ci-cron-event-sender
@@ -180,7 +180,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-41
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-40
-    created: "2020-01-15T10:59:03.301955754Z"
+    created: "2020-01-15T11:08:51.436070102Z"
     description: A Helm chart for Kubernetes
     digest: 4d6adf3fd98d18a85e5586dd417f1b3cc162a1ea471f55e00c682363e5c029a0
     name: estafette-ci-cron-event-sender
@@ -189,7 +189,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-40
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-39
-    created: "2020-01-15T10:59:03.301372042Z"
+    created: "2020-01-15T11:08:51.435422189Z"
     description: A Helm chart for Kubernetes
     digest: b051fd4292278a96fc15d4061f2fe373dd866919a94ba15e093e5f400e678589
     name: estafette-ci-cron-event-sender
@@ -198,7 +198,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-39
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-38
-    created: "2020-01-15T10:59:03.300836086Z"
+    created: "2020-01-15T11:08:51.434843356Z"
     description: A Helm chart for Kubernetes
     digest: 471858f07814ebd02efd54caf7937d32cc23a7b1e22ab87c7856cf274db47b77
     name: estafette-ci-cron-event-sender
@@ -207,7 +207,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-38
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-37
-    created: "2020-01-15T10:59:03.300199706Z"
+    created: "2020-01-15T11:08:51.434341688Z"
     description: A Helm chart for Kubernetes
     digest: d7bed572f6a697394d36c05ab368ff27ecd67914bffec2c55798253606fcb677
     name: estafette-ci-cron-event-sender
@@ -216,7 +216,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-37
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-36
-    created: "2020-01-15T10:59:03.29891077Z"
+    created: "2020-01-15T11:08:51.433801584Z"
     description: A Helm chart for Kubernetes
     digest: b61f66408c93211b57e74e86670117707250763d680a7021d75d97f279a247e4
     name: estafette-ci-cron-event-sender
@@ -225,7 +225,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-36
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-35
-    created: "2020-01-15T10:59:03.297975136Z"
+    created: "2020-01-15T11:08:51.433285654Z"
     description: A Helm chart for Kubernetes
     digest: 05cf3084a0d55bc113b4b783d506457de77f2a7696b897a65af6e4bd6085e630
     name: estafette-ci-cron-event-sender
@@ -235,7 +235,7 @@ entries:
   estafette-ci-web:
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-624
-    created: "2020-01-15T10:59:03.3107284Z"
+    created: "2020-01-15T11:08:51.445471345Z"
     description: A Helm chart for Kubernetes
     digest: a00ffecd2ed99f82db38b9afe8e81a36aa00f5c10d13880805711e8ca658c730
     home: https://estafette.io
@@ -246,7 +246,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-624
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-623
-    created: "2020-01-15T10:59:03.308524157Z"
+    created: "2020-01-15T11:08:51.444344054Z"
     description: A Helm chart for Kubernetes
     digest: 77befe43efa227841d32afaf76abc69f777e0cb7769f2e589ca2c82519b3e99f
     home: https://estafette.io
@@ -257,7 +257,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-623
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-621
-    created: "2020-01-15T10:59:03.307432797Z"
+    created: "2020-01-15T11:08:51.4432099Z"
     description: A Helm chart for Kubernetes
     digest: d5e47d263784cfe7183b32c7658595709376d6b6574a1f5ea7bec424fa3e3ebe
     home: https://estafette.io
@@ -268,7 +268,7 @@ entries:
     version: 1.0.0-add-official-helm-chart-621
   - apiVersion: v1
     appVersion: 1.0.0-add-official-helm-chart-620
-    created: "2020-01-15T10:59:03.306478643Z"
+    created: "2020-01-15T11:08:51.440871484Z"
     description: A Helm chart for Kubernetes
     digest: 57b1b0fa3c3cd0754bceff1f3927d2478ad8d85b8fa107bf201c2f9674bb33ab
     home: https://estafette.io
@@ -280,7 +280,7 @@ entries:
   estafette-cloudflare-dns:
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2020-01-15T10:59:03.314957795Z"
+    created: "2020-01-15T11:08:51.449799744Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: edd4fcf03d914f85d182489f67cc47f358b417b438594eaed6a65b027f5d747d
@@ -292,7 +292,7 @@ entries:
     version: 1.2.4
   - apiVersion: v1
     appVersion: 1.2.4-master-109
-    created: "2020-01-15T10:59:03.31437688Z"
+    created: "2020-01-15T11:08:51.449156048Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 78aefb2ddeea3208a5b5b2bc8f12e65225261864524b43467f3e75a041cfc45d
@@ -304,7 +304,7 @@ entries:
     version: 1.2.4-master-109
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2020-01-15T10:59:03.313803976Z"
+    created: "2020-01-15T11:08:51.448528023Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 95908af71c1d7a48daf983a234bbbd981e00b28ed84365c0c7d7094959a90a23
@@ -316,7 +316,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.3-configurable-log-format-105
-    created: "2020-01-15T10:59:03.313182486Z"
+    created: "2020-01-15T11:08:51.447922731Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 7c8800b123f4b6db4a55bbc764701003162bafb42686d52c9414922d7c78928a
@@ -328,7 +328,7 @@ entries:
     version: 1.2.3-configurable-log-format-105
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2020-01-15T10:59:03.312529879Z"
+    created: "2020-01-15T11:08:51.447330504Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 182d7769dea745e02672351cd882ae85a4707468ae9743e9906c8052c0695800
@@ -340,7 +340,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2020-01-15T10:59:03.311910417Z"
+    created: "2020-01-15T11:08:51.446669939Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: bb1e90d9b649fc8d8052fb166f58a6f509d7bc864a24cecf2498125d7b25cd2e
@@ -352,7 +352,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.81
-    created: "2020-01-15T10:59:03.311346772Z"
+    created: "2020-01-15T11:08:51.446112453Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: fdf246261af260e0e05b53295a78b927d40b16dc847270f0197acfd21480342e
@@ -363,7 +363,7 @@ entries:
   estafette-gcloud-mig-scaler:
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2020-01-15T10:59:03.323685976Z"
+    created: "2020-01-15T11:08:51.457748528Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: 62845622bf6ce5c3d042c99a8c0a6223d21b5bf8e94fbb657e0dff735c61a6bf
@@ -375,7 +375,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.3-master-51
-    created: "2020-01-15T10:59:03.322735485Z"
+    created: "2020-01-15T11:08:51.457120969Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: ed28941f42773d6ca3b04a019be291e8fcb305ac87cee395b26ad95c0adf4bfd
@@ -387,7 +387,7 @@ entries:
     version: 1.2.3-master-51
   - apiVersion: v1
     appVersion: 1.2.3-master-49
-    created: "2020-01-15T10:59:03.321511311Z"
+    created: "2020-01-15T11:08:51.456501074Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: 8c0256c727c3bc8e80cc0b15a4ba3473e8adb441c3822c7fc7e535c327d9b339
@@ -399,7 +399,7 @@ entries:
     version: 1.2.3-master-49
   - apiVersion: v1
     appVersion: 1.2.3-configurable-log-format-45
-    created: "2020-01-15T10:59:03.319950557Z"
+    created: "2020-01-15T11:08:51.455792712Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: 15601f5a7c8346203022beb287735382de2b7edf67c6657f91c8166df7cf59bf
@@ -411,7 +411,7 @@ entries:
     version: 1.2.3-configurable-log-format-45
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2020-01-15T10:59:03.318922292Z"
+    created: "2020-01-15T11:08:51.455036957Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: 88b5feacbb1a1e43694ad1812ddd3f6d689d31082931d52e355c05b3bfe32a4d
@@ -423,7 +423,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.2-redeploy-on-secret-change-46
-    created: "2020-01-15T10:59:03.318071852Z"
+    created: "2020-01-15T11:08:51.454310387Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: c1b0e74019de1a1d2e37d2e11c84371cfd7e3ea9f1966ac2df56e9d04f250d0f
@@ -435,7 +435,7 @@ entries:
     version: 1.2.2-redeploy-on-secret-change-46
   - apiVersion: v1
     appVersion: 1.2.2-master-47
-    created: "2020-01-15T10:59:03.317394009Z"
+    created: "2020-01-15T11:08:51.452451419Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: 3cfb94afcc46a13bb924e74570994c3f92d8ab705d3028021b2dec2e6f3edff4
@@ -447,7 +447,7 @@ entries:
     version: 1.2.2-master-47
   - apiVersion: v1
     appVersion: 1.2.2-master-44
-    created: "2020-01-15T10:59:03.316735002Z"
+    created: "2020-01-15T11:08:51.451801583Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: 52c368ea4e108087bf411e2d91c3983b90c19577d810c3b9bf9eef3ffd385762
@@ -459,7 +459,7 @@ entries:
     version: 1.2.2-master-44
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2020-01-15T10:59:03.316122854Z"
+    created: "2020-01-15T11:08:51.451155694Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: cbebfe82c0d4d60da44ed8a068c9b36e917dd79ae8fcd32e556eb600838bddbf
@@ -471,7 +471,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.27
-    created: "2020-01-15T10:59:03.315534296Z"
+    created: "2020-01-15T11:08:51.450392859Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: 093eeb859625d195c7a2affeed31e420d87dfb093d999421f6ebd46b921fe853
@@ -482,7 +482,7 @@ entries:
   estafette-gcloud-quota-exporter:
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2020-01-15T10:59:03.329037817Z"
+    created: "2020-01-15T11:08:51.462045493Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: 0c558348abf35a9a559978d29d8132a389ad3b48ef37fb7805e6984b72e387b5
@@ -494,7 +494,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.3-master-64
-    created: "2020-01-15T10:59:03.328437142Z"
+    created: "2020-01-15T11:08:51.461389813Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: 4520219a211ffbb4df2ee1886d3abed9778335e82aa6b8dff2c44c561fb0c8fc
@@ -506,7 +506,7 @@ entries:
     version: 1.2.3-master-64
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2020-01-15T10:59:03.327810746Z"
+    created: "2020-01-15T11:08:51.460750836Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: 7cef094bbb6407ee76f3c44a3259d8df0324257f9d2220f6b7238a751ae266e0
@@ -518,7 +518,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.2-redeploy-on-secret-change-58
-    created: "2020-01-15T10:59:03.327070776Z"
+    created: "2020-01-15T11:08:51.460080203Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: 4139d8accd2a7bb2cd078ec86fb681c87a2136a69582b29d00d51c5822c53590
@@ -530,7 +530,7 @@ entries:
     version: 1.2.2-redeploy-on-secret-change-58
   - apiVersion: v1
     appVersion: 1.2.2-master-56
-    created: "2020-01-15T10:59:03.326184469Z"
+    created: "2020-01-15T11:08:51.459495286Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: 21ef0efd0404786b2b685745642578ea88dd66e2510b0f3d8bea86182f392797
@@ -542,7 +542,7 @@ entries:
     version: 1.2.2-master-56
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2020-01-15T10:59:03.325267971Z"
+    created: "2020-01-15T11:08:51.458890308Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: d1b9b1d1ff834726f3e7acb2a094a0ab3800c38f0a79993f9aaa4007ec97d8ce
@@ -554,7 +554,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.40
-    created: "2020-01-15T10:59:03.324577503Z"
+    created: "2020-01-15T11:08:51.458313779Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: 0a2de79959def00728a929612f5213adedb3fd78f2e18d8e14e6b54a65f38389
@@ -565,7 +565,7 @@ entries:
   estafette-gcp-service-account:
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2020-01-15T10:59:03.337074178Z"
+    created: "2020-01-15T11:08:51.470382702Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: 4d6ff2b5625e6e716603f3217c092de14e61f1041171d0f444b5c821678f6163
@@ -577,7 +577,7 @@ entries:
     version: 1.2.4
   - apiVersion: v1
     appVersion: 1.2.4-master-99
-    created: "2020-01-15T10:59:03.336416142Z"
+    created: "2020-01-15T11:08:51.46963758Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: c24b5b4d8c773101d331b3f257896d0266602183f4cb24f10c4f3e6fb1cebeee
@@ -589,7 +589,7 @@ entries:
     version: 1.2.4-master-99
   - apiVersion: v1
     appVersion: 1.2.4-master-103
-    created: "2020-01-15T10:59:03.335640749Z"
+    created: "2020-01-15T11:08:51.468936336Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: e20c2f9abbfdc3190fdc5b9edebda766dd1852d9564c5f068be50b7b2a004061
@@ -601,7 +601,7 @@ entries:
     version: 1.2.4-master-103
   - apiVersion: v1
     appVersion: 1.2.4-master-102
-    created: "2020-01-15T10:59:03.333877805Z"
+    created: "2020-01-15T11:08:51.468325575Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: 29f08493bedb97bb06e5091e5da1cbdfacd973edda3b66259b30c1d6f8952425
@@ -613,7 +613,7 @@ entries:
     version: 1.2.4-master-102
   - apiVersion: v1
     appVersion: 1.2.4-configurable-log-format-98
-    created: "2020-01-15T10:59:03.33315488Z"
+    created: "2020-01-15T11:08:51.467485669Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: f1b04d704a8221fafc6ad84a442e5f2bce3f5bd11581f6e5f3184931b998d42d
@@ -625,7 +625,7 @@ entries:
     version: 1.2.4-configurable-log-format-98
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2020-01-15T10:59:03.33241559Z"
+    created: "2020-01-15T11:08:51.46677369Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: c07b5e97039193a2058588f4bf537ec317931dae797d7fc7e1343dbdbdf6be03
@@ -637,7 +637,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2020-01-15T10:59:03.331610519Z"
+    created: "2020-01-15T11:08:51.466047815Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: f6fff5f2968bfafb4687eb2c33ad3822482ac3272c67d865f372bdddcff97287
@@ -649,7 +649,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.2-master-93
-    created: "2020-01-15T10:59:03.330959487Z"
+    created: "2020-01-15T11:08:51.464368011Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: 3b2784029e428e171324200212c60bde79d5a5d0989da55ec1970de27a983a50
@@ -661,7 +661,7 @@ entries:
     version: 1.2.2-master-93
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2020-01-15T10:59:03.330319049Z"
+    created: "2020-01-15T11:08:51.463452032Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: f0feefa9d266e6219f16114fbc52e84bae620dc2853e08715b049e23296176ec
@@ -673,7 +673,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.72
-    created: "2020-01-15T10:59:03.329654053Z"
+    created: "2020-01-15T11:08:51.462765321Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: d58c88bda65ab8b831a9af5ff222c079ec0bf0a390d7b1c6a87a43617246c934
@@ -684,7 +684,7 @@ entries:
   estafette-gke-node-pool-shifter:
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2020-01-15T10:59:03.343510692Z"
+    created: "2020-01-15T11:08:51.478363787Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: c9d4e95e6d4a8f61d04d6d7f97c15adacb49151013283b672ea84541371a588f
@@ -696,7 +696,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.3-master-67
-    created: "2020-01-15T10:59:03.342842399Z"
+    created: "2020-01-15T11:08:51.477409018Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: 5decc90f617d3e6b050fa0085bbe982b9f2fcda7f7905ff2c97456d4645d74d2
@@ -708,7 +708,7 @@ entries:
     version: 1.2.3-master-67
   - apiVersion: v1
     appVersion: 1.2.3-master-64
-    created: "2020-01-15T10:59:03.342249549Z"
+    created: "2020-01-15T11:08:51.476148405Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: b107d7d3f0c8e4bfc8f80f2e49abdad4744aa1a0695e676b3632ab3d8428e95b
@@ -720,7 +720,7 @@ entries:
     version: 1.2.3-master-64
   - apiVersion: v1
     appVersion: 1.2.3-configurable-log-format-60
-    created: "2020-01-15T10:59:03.341600769Z"
+    created: "2020-01-15T11:08:51.47534868Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: 6470269001bcf6817402608f32df677146aed04f8e24792614256dd4b297b5aa
@@ -732,7 +732,7 @@ entries:
     version: 1.2.3-configurable-log-format-60
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2020-01-15T10:59:03.340911785Z"
+    created: "2020-01-15T11:08:51.474677063Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: 6e078aeceaab7062cb6dae22f9522f828707e432586512f4a981c33431a9735b
@@ -744,7 +744,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.2-redeploy-on-secret-change-61
-    created: "2020-01-15T10:59:03.340312266Z"
+    created: "2020-01-15T11:08:51.47392538Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: 08fc086767a517a52fc8a837700109b5fea0d65e1aa02f248beedf0ffe0322fb
@@ -756,7 +756,7 @@ entries:
     version: 1.2.2-redeploy-on-secret-change-61
   - apiVersion: v1
     appVersion: 1.2.2-master-62
-    created: "2020-01-15T10:59:03.33966173Z"
+    created: "2020-01-15T11:08:51.47316414Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: 5298d7bb34b9843a930ed73b165243319e44836714f1f21d4e8de9cc63cd69fb
@@ -768,7 +768,7 @@ entries:
     version: 1.2.2-master-62
   - apiVersion: v1
     appVersion: 1.2.2-master-59
-    created: "2020-01-15T10:59:03.338992199Z"
+    created: "2020-01-15T11:08:51.47249791Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: 81b775c4fd6d3c43828e8b835e55556d004ea3a0670396dff04bd71facc00892
@@ -780,7 +780,7 @@ entries:
     version: 1.2.2-master-59
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2020-01-15T10:59:03.338323089Z"
+    created: "2020-01-15T11:08:51.471735404Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: 9ed844f2b1b07748f65e1b048997120fa68dabe3670950a4f6d0ed6a793224a7
@@ -792,7 +792,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.42
-    created: "2020-01-15T10:59:03.337693357Z"
+    created: "2020-01-15T11:08:51.470982836Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: dbd2bd8bce549a8f61115ffd06c1ad3901872726f30cc109132990f5e04eb733
@@ -803,7 +803,7 @@ entries:
   estafette-gke-preemptible-killer:
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2020-01-15T10:59:03.351161811Z"
+    created: "2020-01-15T11:08:51.484850659Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 7d167eefad7d34b7f938353ee8328789ad1d61362d3b1bf4f46e68ef98971302
@@ -815,7 +815,7 @@ entries:
     version: 1.2.4
   - apiVersion: v1
     appVersion: 1.2.4-master-110
-    created: "2020-01-15T10:59:03.350552984Z"
+    created: "2020-01-15T11:08:51.484224376Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 3af02afeeff714607e8919ae7a8db4262263fe49f5c100d96a2bcaf1ebf38d6f
@@ -827,7 +827,7 @@ entries:
     version: 1.2.4-master-110
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2020-01-15T10:59:03.349929826Z"
+    created: "2020-01-15T11:08:51.483600111Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 3a861e9cb178cda733b71cfc7f50b5fca8bec9e0de6f3cd57ff6b39ca76e9af0
@@ -839,7 +839,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.3-configurable-log-format-105
-    created: "2020-01-15T10:59:03.349228188Z"
+    created: "2020-01-15T11:08:51.482930766Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 6cc35ba6f84938765b90e6b62709fcd15b55e4aeb17fd78bb6f084ebb00b753e
@@ -851,7 +851,7 @@ entries:
     version: 1.2.3-configurable-log-format-105
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2020-01-15T10:59:03.348521631Z"
+    created: "2020-01-15T11:08:51.482316322Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 6862b3383f922ae18be6205a676d8b694718a1f8e5b190874cce892bf1c7eee5
@@ -863,7 +863,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.2-redeploy-on-secret-change-96
-    created: "2020-01-15T10:59:03.34777486Z"
+    created: "2020-01-15T11:08:51.481675788Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 3dfb16b61c1c9435980e3e0858b661b2e52779c4dbece061098dda1ff320af3b
@@ -875,7 +875,7 @@ entries:
     version: 1.2.2-redeploy-on-secret-change-96
   - apiVersion: v1
     appVersion: 1.2.2-master-94
-    created: "2020-01-15T10:59:03.347076162Z"
+    created: "2020-01-15T11:08:51.480993595Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: abdcd19dfc831f9cb710c57e37eb597ccaef65cc68a7daad381720f9056b6878
@@ -887,7 +887,7 @@ entries:
     version: 1.2.2-master-94
   - apiVersion: v1
     appVersion: 1.2.2-fix-clusterrole-95
-    created: "2020-01-15T10:59:03.346355764Z"
+    created: "2020-01-15T11:08:51.480357688Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: bb89985cd5f88d4e4e3db1d38b150109411024995ea0d5a24c4ea98ce5608ead
@@ -899,7 +899,7 @@ entries:
     version: 1.2.2-fix-clusterrole-95
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2020-01-15T10:59:03.34493165Z"
+    created: "2020-01-15T11:08:51.479597759Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: b34345cf04a2878533a42edbae53bd7cead802d29583ffb1755506128eaab700
@@ -911,7 +911,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.68
-    created: "2020-01-15T10:59:03.344137531Z"
+    created: "2020-01-15T11:08:51.478964617Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: fd61c20a29367af38b24d438b91332f333aebdcd5a90a4f18b9ef318e0218f40
@@ -922,7 +922,7 @@ entries:
   estafette-google-cloud-dns:
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2020-01-15T10:59:03.35832211Z"
+    created: "2020-01-15T11:08:51.492248347Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: 5114ed3c19657b4c718c7da8d648acb3bd3f3db56127f7c6f92b1a2769055433
@@ -934,7 +934,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.3-master-52
-    created: "2020-01-15T10:59:03.357630097Z"
+    created: "2020-01-15T11:08:51.491570922Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: 4605133491cc5df1aa12dbf9cc15a7b2dbf40be864b5c6b86ea63d553fe151ab
@@ -946,7 +946,7 @@ entries:
     version: 1.2.3-master-52
   - apiVersion: v1
     appVersion: 1.2.3-configurable-log-format-49
-    created: "2020-01-15T10:59:03.356475928Z"
+    created: "2020-01-15T11:08:51.490865731Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: 4b9e6e4001d20ded053ccf9c3b5d051f00a0afb2d78e1539b448235aff822d79
@@ -958,7 +958,7 @@ entries:
     version: 1.2.3-configurable-log-format-49
   - apiVersion: v1
     appVersion: 1.2.3-configurable-log-format-46
-    created: "2020-01-15T10:59:03.355591088Z"
+    created: "2020-01-15T11:08:51.490252772Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: 0a1963baa7634f70d07db1f4fbe047963a4e3b76a50a8da1db673ba935f2efac
@@ -970,7 +970,7 @@ entries:
     version: 1.2.3-configurable-log-format-46
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2020-01-15T10:59:03.354947918Z"
+    created: "2020-01-15T11:08:51.48954346Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: 4af2957491e30d2b1a2b92753c3cf0ad153826a557d0cf0af2d11c9928bc63e3
@@ -982,7 +982,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.2-redeploy-on-secret-change-47
-    created: "2020-01-15T10:59:03.354350649Z"
+    created: "2020-01-15T11:08:51.488344252Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: a8926fc147d6dccf454be8886380c76fcd883a1402ec5dc15bff3bc32f480758
@@ -994,7 +994,7 @@ entries:
     version: 1.2.2-redeploy-on-secret-change-47
   - apiVersion: v1
     appVersion: 1.2.2-master-48
-    created: "2020-01-15T10:59:03.353666306Z"
+    created: "2020-01-15T11:08:51.48746922Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: f3990509930cbc2814f92e53f133822efee33fc87ddacc380e9b879a5ecaca6d
@@ -1006,7 +1006,7 @@ entries:
     version: 1.2.2-master-48
   - apiVersion: v1
     appVersion: 1.2.2-master-45
-    created: "2020-01-15T10:59:03.353058113Z"
+    created: "2020-01-15T11:08:51.486778774Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: f129cf7473c17b7f1be3647f0b7e8bfde1b484588fbf46d5a471100c773e3a0f
@@ -1018,7 +1018,7 @@ entries:
     version: 1.2.2-master-45
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2020-01-15T10:59:03.352458672Z"
+    created: "2020-01-15T11:08:51.486122962Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: 43ee58048e210b57f429be1e3b9922ba474787ae402ce9114b16b17b643a0d10
@@ -1030,7 +1030,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.29
-    created: "2020-01-15T10:59:03.351812171Z"
+    created: "2020-01-15T11:08:51.485498178Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: b1d5919ca3ce7af58fd1a30f266d996031e88650ea3d19150bc1078d997a1624
@@ -1041,7 +1041,7 @@ entries:
   estafette-k8s-hpa-scaler:
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2020-01-15T10:59:03.363027781Z"
+    created: "2020-01-15T11:08:51.497202912Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1054,7 +1054,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.2-master-104
-    created: "2020-01-15T10:59:03.362496928Z"
+    created: "2020-01-15T11:08:51.496487607Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1067,7 +1067,7 @@ entries:
     version: 1.2.2-master-104
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2020-01-15T10:59:03.361963671Z"
+    created: "2020-01-15T11:08:51.495886985Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1080,7 +1080,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.1-master-97
-    created: "2020-01-15T10:59:03.361392666Z"
+    created: "2020-01-15T11:08:51.495284584Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1093,7 +1093,7 @@ entries:
     version: 1.2.1-master-97
   - apiVersion: v1
     appVersion: 1.2.84
-    created: "2020-01-15T10:59:03.360804101Z"
+    created: "2020-01-15T11:08:51.494661139Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1104,7 +1104,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.2.85
-    created: "2020-01-15T10:59:03.360200398Z"
+    created: "2020-01-15T11:08:51.494051142Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1115,7 +1115,7 @@ entries:
     version: 1.2.0-pre-85
   - apiVersion: v1
     appVersion: 1.2.84
-    created: "2020-01-15T10:59:03.359606749Z"
+    created: "2020-01-15T11:08:51.493491555Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1126,7 +1126,7 @@ entries:
     version: 1.2.0-pre-84
   - apiVersion: v1
     appVersion: 1.2.83-add-official-helm-chart
-    created: "2020-01-15T10:59:03.358983368Z"
+    created: "2020-01-15T11:08:51.492857106Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1138,7 +1138,7 @@ entries:
   estafette-letsencrypt-certificate:
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2020-01-15T10:59:03.368950769Z"
+    created: "2020-01-15T11:08:51.503433796Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: ba421227185ec32e29d7123162b21fcde9631e55bc566f9fc257150c6918777c
@@ -1150,7 +1150,7 @@ entries:
     version: 1.2.4
   - apiVersion: v1
     appVersion: 1.2.4-master-163
-    created: "2020-01-15T10:59:03.368174855Z"
+    created: "2020-01-15T11:08:51.502760015Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 6e9ae6f9d5d461b7fa56177b68abee686161db90f028c33be109e08c03ab9411
@@ -1162,7 +1162,7 @@ entries:
     version: 1.2.4-master-163
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2020-01-15T10:59:03.366609562Z"
+    created: "2020-01-15T11:08:51.50203259Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 6c15f8fbb6f8ac26a4e97eb5ebaaa782cf81f4519ab799a4f4cb0b4893595392
@@ -1174,7 +1174,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.3-configurable-log-format-159
-    created: "2020-01-15T10:59:03.366009532Z"
+    created: "2020-01-15T11:08:51.501413531Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 7e19ae938df3b4fda03fde55ac97e94e11898b6d2c61113f10d61e75899381f2
@@ -1186,7 +1186,7 @@ entries:
     version: 1.2.3-configurable-log-format-159
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2020-01-15T10:59:03.36542003Z"
+    created: "2020-01-15T11:08:51.500697032Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 2914e73c211050a76899ac90db03fa2cb889c530a114a8c428fda91fddbc1962
@@ -1198,7 +1198,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.2-master-155
-    created: "2020-01-15T10:59:03.364760163Z"
+    created: "2020-01-15T11:08:51.49907333Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: f85e7c5e4e36cb9ffbcb88969b5243e802c89ec806f1e652d4d6cf69f7d42640
@@ -1210,7 +1210,7 @@ entries:
     version: 1.2.2-master-155
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2020-01-15T10:59:03.364177925Z"
+    created: "2020-01-15T11:08:51.498431974Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 0e111ebf539fd38fa97eff07d6a370607a2f6ff1246f6689da941accb8b9ab26
@@ -1222,7 +1222,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.133
-    created: "2020-01-15T10:59:03.363623238Z"
+    created: "2020-01-15T11:08:51.49779744Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 266eb3d5510184e043d05d003355a94bf1312add7e6bcd4505ead781d975f931
@@ -1233,7 +1233,7 @@ entries:
   estafette-vulnerability-scanner:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2020-01-15T10:59:03.397911206Z"
+    created: "2020-01-15T11:08:51.504075772Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 9212b301595ae76a6efd1776217671237d7c9c2c29cc2f320d079968e5d7f103
@@ -1243,496 +1243,4 @@ entries:
     urls:
     - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0.tgz
     version: 0.1.0
-  - apiVersion: v1
-    appVersion: 0.1.0-master-9
-    created: "2020-01-15T10:59:03.397238163Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 307bd998de3af86bf1648724050b6100eecc6bfd3a307948657a4702369c46b6
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-9.tgz
-    version: 0.1.0-master-9
-  - apiVersion: v1
-    appVersion: 0.1.0-master-8
-    created: "2020-01-15T10:59:03.39661255Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 6ab9cf357b6f7cb6e1651ecf5446599af329e420f8dbb92509c6f2682219dbb9
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-8.tgz
-    version: 0.1.0-master-8
-  - apiVersion: v1
-    appVersion: 0.1.0-master-7
-    created: "2020-01-15T10:59:03.395968673Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 9f5db1c88346ce1d2cb51979d1276d75e3907d96472c62b47308ad7c105eb327
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-7.tgz
-    version: 0.1.0-master-7
-  - apiVersion: v1
-    appVersion: 0.1.0-master-6
-    created: "2020-01-15T10:59:03.39537985Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: d7fa9130a165e37d500a8c1a2fda0ff0fcda9c7c861196cdc884e6f1076900ba
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-6.tgz
-    version: 0.1.0-master-6
-  - apiVersion: v1
-    appVersion: 0.1.0-master-50
-    created: "2020-01-15T10:59:03.394776235Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 48f45f381b96d5e61f5b905311c9a1c741123990ae35ef75e8ee4dddd62a637e
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-50.tgz
-    version: 0.1.0-master-50
-  - apiVersion: v1
-    appVersion: 0.1.0-master-5
-    created: "2020-01-15T10:59:03.394126235Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: cc2aaf0dcbd60260e4888e3c2cdc90b9cc3bbff88ce540ae793a806ba26e5356
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-5.tgz
-    version: 0.1.0-master-5
-  - apiVersion: v1
-    appVersion: 0.1.0-master-49
-    created: "2020-01-15T10:59:03.393549451Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 2f86836db63c9d8bd1a3bdb1c0d24f129a63914884a32d5801520ec728e4a77d
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-49.tgz
-    version: 0.1.0-master-49
-  - apiVersion: v1
-    appVersion: 0.1.0-master-48
-    created: "2020-01-15T10:59:03.392924863Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: d78a738f91a83e7cf8dd6373c3e5fc5aea27d1f660cb06868f551b82d015009b
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-48.tgz
-    version: 0.1.0-master-48
-  - apiVersion: v1
-    appVersion: 0.1.0-master-47
-    created: "2020-01-15T10:59:03.392162319Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: edf9cf70e63e246cb01b68e765d9e0b7c58e1ef5d1eabcb42e2aa340a48fb627
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-47.tgz
-    version: 0.1.0-master-47
-  - apiVersion: v1
-    appVersion: 0.1.0-master-46
-    created: "2020-01-15T10:59:03.391448563Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: b38111d7820dc5e3ecabc7d8d9dd981710841a4cadc33d0b10b029f2d90d45b4
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-46.tgz
-    version: 0.1.0-master-46
-  - apiVersion: v1
-    appVersion: 0.1.0-master-45
-    created: "2020-01-15T10:59:03.390751988Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 5804fa3a4c5ec4c6fa46ef424de9c054a5b0bada448b02371704c04443bb0b78
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-45.tgz
-    version: 0.1.0-master-45
-  - apiVersion: v1
-    appVersion: 0.1.0-master-44
-    created: "2020-01-15T10:59:03.389846968Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 42a45474a08588eb3367a7e84fa206c579fe104441b02f71e010f0a793db5d4b
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-44.tgz
-    version: 0.1.0-master-44
-  - apiVersion: v1
-    appVersion: 0.1.0-master-43
-    created: "2020-01-15T10:59:03.388697727Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: dde936c87da3ff9d560be03e90bbb1dd81888cee4b93b4d1407f384f795d0e33
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-43.tgz
-    version: 0.1.0-master-43
-  - apiVersion: v1
-    appVersion: 0.1.0-master-42
-    created: "2020-01-15T10:59:03.388014841Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 7c066193834a9fb70325693e62943267260e213b0aebf35b09670592096f922c
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-42.tgz
-    version: 0.1.0-master-42
-  - apiVersion: v1
-    appVersion: 0.1.0-master-40
-    created: "2020-01-15T10:59:03.387298948Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 90f6116b88b83388208d28179728c4ef390041906a866cf04b17995240c268e0
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-40.tgz
-    version: 0.1.0-master-40
-  - apiVersion: v1
-    appVersion: 0.1.0-master-4
-    created: "2020-01-15T10:59:03.386490646Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 7859baafbef299da621cf6689635494c8358e73f2b945b95d0e8ca240b848636
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-4.tgz
-    version: 0.1.0-master-4
-  - apiVersion: v1
-    appVersion: 0.1.0-master-39
-    created: "2020-01-15T10:59:03.385793361Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: d7eb935cabadb2cb1de0cfdfb11b86c25792826ba9abf391f6dfb16565d8b067
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-39.tgz
-    version: 0.1.0-master-39
-  - apiVersion: v1
-    appVersion: 0.1.0-master-37
-    created: "2020-01-15T10:59:03.385127173Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 958adec4ab4ef6c136b6fa277c841958febfcb58ceff51544942ee352c7a69c5
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-37.tgz
-    version: 0.1.0-master-37
-  - apiVersion: v1
-    appVersion: 0.1.0-master-34
-    created: "2020-01-15T10:59:03.384439319Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 1970aac32b5ad7f5267ccb7906abf6c7feb9e2b426991d671b764fb36e458b5a
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-34.tgz
-    version: 0.1.0-master-34
-  - apiVersion: v1
-    appVersion: 0.1.0-master-33
-    created: "2020-01-15T10:59:03.383827595Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 8b3a302747381a8f76d1b0048ae35b7cfbf0e47d3296d31ce8b9fa7087d8f825
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-33.tgz
-    version: 0.1.0-master-33
-  - apiVersion: v1
-    appVersion: 0.1.0-master-32
-    created: "2020-01-15T10:59:03.383223928Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: a65151b0f29a13d9bf823f700030e52b80a0478ce6c31dbb3d399fdf780224b6
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-32.tgz
-    version: 0.1.0-master-32
-  - apiVersion: v1
-    appVersion: 0.1.0-master-31
-    created: "2020-01-15T10:59:03.382644752Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: e1d964fdeec88ff8e294a1dd526fc4e089154313c81ffe84175a170c78fc0b98
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-31.tgz
-    version: 0.1.0-master-31
-  - apiVersion: v1
-    appVersion: 0.1.0-master-3
-    created: "2020-01-15T10:59:03.381981163Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 4d448f3bc457c48e760e05a55e05a20028c6a4eb6dc33852d469b04b250d35b0
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-3.tgz
-    version: 0.1.0-master-3
-  - apiVersion: v1
-    appVersion: 0.1.0-master-27
-    created: "2020-01-15T10:59:03.381325914Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 08ed96bbb9427c0499b927e50d81c6cf4041cb9116f0cdfff646010db02e9eda
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-27.tgz
-    version: 0.1.0-master-27
-  - apiVersion: v1
-    appVersion: 0.1.0-master-26
-    created: "2020-01-15T10:59:03.380661097Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 8c62b8cc42db8a8eecb2ae11b5e668a550dd552c70286d12a3dabd144b3aeb32
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-26.tgz
-    version: 0.1.0-master-26
-  - apiVersion: v1
-    appVersion: 0.1.0-master-25
-    created: "2020-01-15T10:59:03.380040405Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 3eebe3b3491d46427fec204ac686c7c3e7f4e2f9d5d324809f1c4d42962e37bc
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-25.tgz
-    version: 0.1.0-master-25
-  - apiVersion: v1
-    appVersion: 0.1.0-master-24
-    created: "2020-01-15T10:59:03.379368312Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: a7cf4d20273d6e7486d47ed9da8dbfd997a82bab3821fb91abe7d0d56008ecf3
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-24.tgz
-    version: 0.1.0-master-24
-  - apiVersion: v1
-    appVersion: 0.1.0-master-23
-    created: "2020-01-15T10:59:03.377817734Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: ebfa22bb31f573a62b6165fcfe67c6ca9abc1d0dd5ac2de4814b329b95f4db2f
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-23.tgz
-    version: 0.1.0-master-23
-  - apiVersion: v1
-    appVersion: 0.1.0-master-22
-    created: "2020-01-15T10:59:03.377188965Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: fdd3144cddf0590bed6e08d2f3c5ee90bb589754318e6d2971e7ca4d7a4dcf82
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-22.tgz
-    version: 0.1.0-master-22
-  - apiVersion: v1
-    appVersion: 0.1.0-master-21
-    created: "2020-01-15T10:59:03.376618183Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: afcaaf0ee5d27c32ea2cdd52f2ffcc2bf85ce4d4ac69395b0bf9b8c691c56623
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-21.tgz
-    version: 0.1.0-master-21
-  - apiVersion: v1
-    appVersion: 0.1.0-master-20
-    created: "2020-01-15T10:59:03.376017587Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: ba91656c3aa3180f6df38f0a63a4303cd516eb923fc197c4fccad3b4cb6b095b
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-20.tgz
-    version: 0.1.0-master-20
-  - apiVersion: v1
-    appVersion: 0.1.0-master-19
-    created: "2020-01-15T10:59:03.375410474Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 447dbf26b2295ab87bd91869f50d8eed8b740976119f1c480d3f8a2842923dbf
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-19.tgz
-    version: 0.1.0-master-19
-  - apiVersion: v1
-    appVersion: 0.1.0-master-18
-    created: "2020-01-15T10:59:03.374827141Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: e030794b8c02d5a13f4a48e111c9a45a2faa009ca224ad02bb2ec07a141704f5
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-18.tgz
-    version: 0.1.0-master-18
-  - apiVersion: v1
-    appVersion: 0.1.0-master-17
-    created: "2020-01-15T10:59:03.374230059Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: f3c010b16bac2d78e5258a23d5428c88d913f26bf8227f8caa9766032ee58ee7
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-17.tgz
-    version: 0.1.0-master-17
-  - apiVersion: v1
-    appVersion: 0.1.0-master-16
-    created: "2020-01-15T10:59:03.373632784Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 570872660abe02d0787029d79a424481f1a446d3518b9d5fd878bb3908fae891
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-16.tgz
-    version: 0.1.0-master-16
-  - apiVersion: v1
-    appVersion: 0.1.0-master-15
-    created: "2020-01-15T10:59:03.373044605Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: ec27e68cf2e2612a62ab518276031d33a189ccf38f8553fa6f219da9f556fdc2
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-15.tgz
-    version: 0.1.0-master-15
-  - apiVersion: v1
-    appVersion: 0.1.0-master-14
-    created: "2020-01-15T10:59:03.372403474Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 0e1d1068cd4494fd4f820b0a8e9e6c2181eab91130153217f510cde3079b01e7
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-14.tgz
-    version: 0.1.0-master-14
-  - apiVersion: v1
-    appVersion: 0.1.0-master-13
-    created: "2020-01-15T10:59:03.371713062Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 27fb7c68b83fd170539cdbe501e8a93237c20531c4566290cf544a58bbbc44e1
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-13.tgz
-    version: 0.1.0-master-13
-  - apiVersion: v1
-    appVersion: 0.1.0-master-12
-    created: "2020-01-15T10:59:03.371025817Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 31e794cad74ae80df1b515c390eff07c3ac22b83f4ebbcf4c2717c8fbec6a701
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-12.tgz
-    version: 0.1.0-master-12
-  - apiVersion: v1
-    appVersion: 0.1.0-master-11
-    created: "2020-01-15T10:59:03.370342292Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: 1ba876ad01978146eca86411522e4e4697d77e48de90d4490c92ecb28e3135e2
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-11.tgz
-    version: 0.1.0-master-11
-  - apiVersion: v1
-    appVersion: 0.1.0-master-10
-    created: "2020-01-15T10:59:03.369623189Z"
-    description: An application that regularly scans all containers in a Kubernetes
-      cluster for vulnerabilities
-    digest: f0f49f65860a48a7004b9226eb07b35eb69d3c881dd1f3a042f005cda74a36dc
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-vulnerability-scanner
-    urls:
-    - https://helm.estafette.io/charts/estafette-vulnerability-scanner-0.1.0-master-10.tgz
-    version: 0.1.0-master-10
-generated: "2020-01-15T10:59:03.282856442Z"
+generated: "2020-01-15T11:08:51.416414637Z"
