@@ -28,6 +28,7 @@ helm upgrade --install estafette-gcloud-quota-exporter estafette/estafette-gclou
 helm upgrade --install estafette-google-cloud-dns estafette/estafette-google-cloud-dns --namespace estafette --wait
 helm upgrade --install estafette-gcloud-mig-scaler estafette/estafette-gcloud-mig-scaler --namespace estafette --wait
 helm upgrade --install estafette-gke-node-pool-shifter estafette/estafette-gke-node-pool-shifter --namespace estafette --wait
+helm upgrade --install estafette-vulnerability-scanner estafette/estafette-vulnerability-scanner --namespace estafette --wait
 ```
 
 ## Local testing
@@ -76,3 +77,4 @@ From here on you can follow the steps as documented in the installation section 
 | [estafette-google-cloud-dns](https://github.com/estafette/estafette-google-cloud-dns)               | Kubernetes controller to update dns record in a Google Cloud DNS zone for annotated services and ingresses                                                    |
 | [estafette-gcloud-mig-scaler](https://github.com/estafette/estafette-gcloud-mig-scaler)             | Controller to scale a Google Cloud managed instance groups based on request rate retrieved from Prometheus                                                    |
 | [estafette-gke-node-pool-shifter](https://github.com/estafette/estafette-gke-node-pool-shifter)     | Kubernetes controller that can shift nodes from one node pool to another, to favour for example preemptibles over regular vms                                 |
+| [estafette-vulnerability-scanner](https://github.com/estafette/estafette-vulnerability-scanner)     | Kubernetes controller to scan any used container image in a cluster for vulnerabilities                                                                       |
