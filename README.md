@@ -30,6 +30,7 @@ helm upgrade --install estafette-gcloud-mig-scaler estafette/estafette-gcloud-mi
 helm upgrade --install estafette-gke-node-pool-shifter estafette/estafette-gke-node-pool-shifter --namespace estafette --wait
 helm upgrade --install estafette-vulnerability-scanner estafette/estafette-vulnerability-scanner --namespace estafette --wait
 helm upgrade --install estafette-k8s-node-compactor estafette/estafette-k8s-node-compactor --namespace estafette --wait
+helm upgrade --install k8s-node-termination-handler estafette/k8s-node-termination-handler --namespace kube-system --wait
 ```
 
 ## Local testing
