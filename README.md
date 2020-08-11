@@ -13,7 +13,7 @@ To update and view all available charts in the repository run
 
 ```bash
 helm repo update estafette
-helm search estafette
+helm search repo estafette
 ```
 
 From here on you can install or upgrade helm charts as follows
