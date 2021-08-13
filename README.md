@@ -19,6 +19,8 @@ helm search repo estafette
 From here on you can install or upgrade helm charts as follows
 
 ```bash
+helm upgrade --install estafette-ci estafette/estafette-ci --namespace estafette-ci --wait
+
 helm upgrade --install estafette-cloudflare-dns estafette/estafette-cloudflare-dns --namespace estafette --wait
 helm upgrade --install estafette-letsencrypt-certificate estafette/estafette-letsencrypt-certificate --namespace estafette --wait
 helm upgrade --install estafette-gke-preemptible-killer estafette/estafette-gke-preemptible-killer --namespace estafette --wait
@@ -70,6 +72,8 @@ From here on you can follow the steps as documented in the installation section 
 
 | Chart                                                                                               | Description                                                                                                                                                            |
 | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [estafette-ci](https://github.com/estafette/estafette-ci)                                           | Estafette CI/CD, the resilient and cloud-native CI/CD platform                                                                                                         |
+|                                                                                                     |                                                                                                                                                                        |
 | [estafette-cloudflare-dns](https://github.com/estafette/estafette-cloudflare-dns)                   | Kubernetes controller to set and update dns records in Cloudflare for annotated services and ingresses                                                                 |
 | [estafette-letsencrypt-certificate](https://github.com/estafette/estafette-letsencrypt-certificate) | Kubernetes controller to retrieve and renews tls certificates from Letsencrypt for annotated Kubernetes secrets                                                        |
 | [estafette-gke-preemptible-killer](https://github.com/estafette/estafette-gke-preemptible-killer)   | Kubernetes controller to spread preemption for preemtible VMs in GKE to avoid mass deletion after 24 hours                                                             |
