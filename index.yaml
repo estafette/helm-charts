@@ -3,7 +3,7 @@ entries:
   estafette-ci:
   - apiVersion: v2
     appVersion: 1.0.19
-    created: "2021-09-21T16:13:02.311580988Z"
+    created: "2021-09-22T02:20:55.71476581Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -58,64 +58,8 @@ entries:
     - https://helm.estafette.io/charts/estafette-ci-1.0.19.tgz
     version: 1.0.19
   - apiVersion: v2
-    appVersion: 1.0.19-main-239
-    created: "2021-09-21T16:13:02.287535794Z"
-    dependencies:
-    - alias: api
-      condition: api.enabled
-      name: estafette-ci-api
-      repository: ""
-      version: ^1
-    - alias: cron-event-sender
-      condition: cron-event-sender.enabled
-      name: estafette-ci-cron-event-sender
-      repository: ""
-      version: ^1
-    - alias: db-migrator
-      condition: db-migrator.enabled
-      name: estafette-ci-db-migrator
-      repository: ""
-      version: ^1
-    - alias: web
-      condition: web.enabled
-      name: estafette-ci-web
-      repository: ""
-      version: ^1
-    - alias: db
-      condition: db.enabled
-      name: cockroachdb
-      repository: https://charts.cockroachdb.com/
-      version: 6.1.2
-    - alias: metrics
-      condition: metrics.enabled
-      name: prometheus
-      repository: https://prometheus-community.github.io/helm-charts
-      version: 14.6.0
-    - alias: queue
-      condition: queue.enabled
-      name: nats
-      repository: https://nats-io.github.io/k8s/helm/charts/
-      version: 0.8.8
-    - condition: cert-manager.enabled
-      name: cert-manager
-      repository: https://charts.jetstack.io
-      version: v1.5.3
-    - condition: external-dns.enabled
-      name: external-dns
-      repository: https://kubernetes-sigs.github.io/external-dns/
-      version: 1.2.0
-    description: The resilient and cloud-native CI/CD platform
-    digest: a68101efc7df07084b1aee955ea74d9819dd0b9f9086c8635fc63f5a8207f2e7
-    home: https://helm.estafette.io
-    icon: https://helm.estafette.io/icon.png
-    name: estafette-ci
-    type: application
-    urls:
-    - https://helm.estafette.io/charts/estafette-ci-1.0.19-main-239.tgz
-    version: 1.0.19-main-239
-  - apiVersion: v2
     appVersion: 1.0.18
-    created: "2021-09-21T16:13:02.263890774Z"
+    created: "2021-09-22T02:20:55.690586115Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -171,7 +115,7 @@ entries:
     version: 1.0.18
   - apiVersion: v2
     appVersion: 1.0.17
-    created: "2021-09-21T16:13:02.240105963Z"
+    created: "2021-09-22T02:20:55.662534655Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -227,7 +171,7 @@ entries:
     version: 1.0.17
   - apiVersion: v2
     appVersion: 1.0.16
-    created: "2021-09-21T16:13:02.216729722Z"
+    created: "2021-09-22T02:20:55.636184974Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -283,7 +227,7 @@ entries:
     version: 1.0.16
   - apiVersion: v2
     appVersion: 1.0.15
-    created: "2021-09-21T16:13:02.193417242Z"
+    created: "2021-09-22T02:20:55.609532125Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -339,7 +283,7 @@ entries:
     version: 1.0.15
   - apiVersion: v2
     appVersion: 1.0.14
-    created: "2021-09-21T16:13:02.168060216Z"
+    created: "2021-09-22T02:20:55.58182137Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -395,7 +339,7 @@ entries:
     version: 1.0.14
   - apiVersion: v2
     appVersion: 1.0.13
-    created: "2021-09-21T16:13:02.143505642Z"
+    created: "2021-09-22T02:20:55.556633628Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -451,7 +395,7 @@ entries:
     version: 1.0.13
   - apiVersion: v2
     appVersion: 1.0.12
-    created: "2021-09-21T16:13:02.11517075Z"
+    created: "2021-09-22T02:20:55.530562348Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -507,7 +451,7 @@ entries:
     version: 1.0.12
   - apiVersion: v2
     appVersion: 1.0.11
-    created: "2021-09-21T16:13:02.090736575Z"
+    created: "2021-09-22T02:20:55.503196503Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -563,7 +507,7 @@ entries:
     version: 1.0.11
   - apiVersion: v2
     appVersion: 1.0.10
-    created: "2021-09-21T16:13:02.062184393Z"
+    created: "2021-09-22T02:20:55.477364889Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -619,7 +563,7 @@ entries:
     version: 1.0.10
   - apiVersion: v2
     appVersion: 1.0.9
-    created: "2021-09-21T16:13:02.455731145Z"
+    created: "2021-09-22T02:20:55.851550206Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -675,7 +619,7 @@ entries:
     version: 1.0.9
   - apiVersion: v2
     appVersion: 1.0.8
-    created: "2021-09-21T16:13:02.428652162Z"
+    created: "2021-09-22T02:20:55.825774048Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -723,7 +667,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: 1.0.7
-    created: "2021-09-21T16:13:02.407612577Z"
+    created: "2021-09-22T02:20:55.809813199Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -768,7 +712,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 1.0.6
-    created: "2021-09-21T16:13:02.392842109Z"
+    created: "2021-09-22T02:20:55.794242228Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -813,7 +757,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2021-09-21T16:13:02.37670176Z"
+    created: "2021-09-22T02:20:55.778553454Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -858,7 +802,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2021-09-21T16:13:02.363268375Z"
+    created: "2021-09-22T02:20:55.7623723Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -903,7 +847,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2021-09-21T16:13:02.341033266Z"
+    created: "2021-09-22T02:20:55.744773641Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -948,7 +892,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2021-09-21T16:13:02.324774956Z"
+    created: "2021-09-22T02:20:55.729494562Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -993,7 +937,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2021-09-21T16:13:02.037069538Z"
+    created: "2021-09-22T02:20:55.452149178Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -1038,7 +982,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-09-21T16:13:02.022960801Z"
+    created: "2021-09-22T02:20:55.435465808Z"
     dependencies:
     - alias: api
       condition: api.enabled
@@ -1084,7 +1028,7 @@ entries:
   estafette-cloudflare-dns:
   - apiVersion: v1
     appVersion: 1.2.11-main-143
-    created: "2021-09-21T16:13:02.45812014Z"
+    created: "2021-09-22T02:20:55.853903211Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 0a01471b1fb281700fe44da028eaa81e7c75e35b8c3f8480882cd3610f99f4c4
@@ -1096,7 +1040,7 @@ entries:
     version: 1.2.11-main-143
   - apiVersion: v1
     appVersion: 1.2.10
-    created: "2021-09-21T16:13:02.45754211Z"
+    created: "2021-09-22T02:20:55.853267459Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 40c727e51e654a84cef63c808a0aa844956bb0737191a4f955a084440c3b5ecf
@@ -1108,7 +1052,7 @@ entries:
     version: 1.2.10
   - apiVersion: v1
     appVersion: 1.2.9
-    created: "2021-09-21T16:13:02.463328593Z"
+    created: "2021-09-22T02:20:55.85829527Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 7b4e042533fb65ac6ad4ff96976b3bb982de177f585d18db94445f713f590bcf
@@ -1120,7 +1064,7 @@ entries:
     version: 1.2.9
   - apiVersion: v1
     appVersion: 1.2.8
-    created: "2021-09-21T16:13:02.46271988Z"
+    created: "2021-09-22T02:20:55.857665736Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 055bfd709472cb0e61ba8462a56aacf6de429edf359d6bcb03144e3c71f8e470
@@ -1132,7 +1076,7 @@ entries:
     version: 1.2.8
   - apiVersion: v1
     appVersion: 1.2.7
-    created: "2021-09-21T16:13:02.46211061Z"
+    created: "2021-09-22T02:20:55.857149265Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: fc74b3d8162efb4d753606d2120beec39303b71931cf7749b700b3c5c0fb04ed
@@ -1144,7 +1088,7 @@ entries:
     version: 1.2.7
   - apiVersion: v1
     appVersion: 1.2.6
-    created: "2021-09-21T16:13:02.461498196Z"
+    created: "2021-09-22T02:20:55.856597108Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: d2d4eee9e2a6fd09860348f157e05799fecc3230e96c28815922c4b47e2ff4c6
@@ -1156,7 +1100,7 @@ entries:
     version: 1.2.6
   - apiVersion: v1
     appVersion: 1.2.5
-    created: "2021-09-21T16:13:02.460719107Z"
+    created: "2021-09-22T02:20:55.856063698Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 7d8e189925deb9684010da52a3dbcbe534dbef88cd55e09e0d002b96438062d5
@@ -1168,7 +1112,7 @@ entries:
     version: 1.2.5
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2021-09-21T16:13:02.460016938Z"
+    created: "2021-09-22T02:20:55.85554701Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: edd4fcf03d914f85d182489f67cc47f358b417b438594eaed6a65b027f5d747d
@@ -1180,7 +1124,7 @@ entries:
     version: 1.2.4
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2021-09-21T16:13:02.459314704Z"
+    created: "2021-09-22T02:20:55.855004759Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 95908af71c1d7a48daf983a234bbbd981e00b28ed84365c0c7d7094959a90a23
@@ -1192,7 +1136,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2021-09-21T16:13:02.45872589Z"
+    created: "2021-09-22T02:20:55.854467904Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: 182d7769dea745e02672351cd882ae85a4707468ae9743e9906c8052c0695800
@@ -1204,7 +1148,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2021-09-21T16:13:02.456927988Z"
+    created: "2021-09-22T02:20:55.852691284Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: bb1e90d9b649fc8d8052fb166f58a6f509d7bc864a24cecf2498125d7b25cd2e
@@ -1216,7 +1160,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.81
-    created: "2021-09-21T16:13:02.456378544Z"
+    created: "2021-09-22T02:20:55.852177972Z"
     description: Kubernetes controller to set and update dns records in Cloudflare
       for annotated services and ingresses
     digest: fdf246261af260e0e05b53295a78b927d40b16dc847270f0197acfd21480342e
@@ -1227,7 +1171,7 @@ entries:
   estafette-gcloud-mig-scaler:
   - apiVersion: v1
     appVersion: 1.2.4-main-54
-    created: "2021-09-21T16:13:02.46643278Z"
+    created: "2021-09-22T02:20:55.861683778Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: 6258c33b2427261750dd1a93a4a3f559f0343a2e7513f56cba37a606b4a8e196
@@ -1239,7 +1183,7 @@ entries:
     version: 1.2.4-main-54
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2021-09-21T16:13:02.46580539Z"
+    created: "2021-09-22T02:20:55.860646755Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: 62845622bf6ce5c3d042c99a8c0a6223d21b5bf8e94fbb657e0dff735c61a6bf
@@ -1251,7 +1195,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2021-09-21T16:13:02.46514732Z"
+    created: "2021-09-22T02:20:55.860096595Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: 88b5feacbb1a1e43694ad1812ddd3f6d689d31082931d52e355c05b3bfe32a4d
@@ -1263,7 +1207,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2021-09-21T16:13:02.464538283Z"
+    created: "2021-09-22T02:20:55.859514652Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: cbebfe82c0d4d60da44ed8a068c9b36e917dd79ae8fcd32e556eb600838bddbf
@@ -1275,7 +1219,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.27
-    created: "2021-09-21T16:13:02.463928616Z"
+    created: "2021-09-22T02:20:55.858959995Z"
     description: Controller to scale a Google Cloud managed instance groups based
       on request rate retrieved from Prometheus
     digest: 093eeb859625d195c7a2affeed31e420d87dfb093d999421f6ebd46b921fe853
@@ -1286,7 +1230,7 @@ entries:
   estafette-gcloud-quota-exporter:
   - apiVersion: v1
     appVersion: 1.2.5-main-71
-    created: "2021-09-21T16:13:02.469818448Z"
+    created: "2021-09-22T02:20:55.866522674Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: 8b9b69c25278cce006274350a0ca7d9d3ceb62398b26239a50713dcf7fa001aa
@@ -1298,7 +1242,7 @@ entries:
     version: 1.2.5-main-71
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2021-09-21T16:13:02.469202316Z"
+    created: "2021-09-22T02:20:55.865893839Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: 9cf4f75408786cb49002c6941acf278da380cbe2daabd05e830d23a00d6ef0f4
@@ -1310,7 +1254,7 @@ entries:
     version: 1.2.4
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2021-09-21T16:13:02.468659286Z"
+    created: "2021-09-22T02:20:55.865351476Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: 0c558348abf35a9a559978d29d8132a389ad3b48ef37fb7805e6984b72e387b5
@@ -1322,7 +1266,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2021-09-21T16:13:02.468100335Z"
+    created: "2021-09-22T02:20:55.864719991Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: 7cef094bbb6407ee76f3c44a3259d8df0324257f9d2220f6b7238a751ae266e0
@@ -1334,7 +1278,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2021-09-21T16:13:02.467558256Z"
+    created: "2021-09-22T02:20:55.864123021Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: d1b9b1d1ff834726f3e7acb2a094a0ab3800c38f0a79993f9aaa4007ec97d8ce
@@ -1346,7 +1290,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.40
-    created: "2021-09-21T16:13:02.466974056Z"
+    created: "2021-09-22T02:20:55.863219243Z"
     description: Prometheus exporter to turn Google Cloud quota into Prometheus timeline
       series
     digest: 0a2de79959def00728a929612f5213adedb3fd78f2e18d8e14e6b54a65f38389
@@ -1357,7 +1301,7 @@ entries:
   estafette-gcp-service-account:
   - apiVersion: v1
     appVersion: 1.2.10-main-132
-    created: "2021-09-21T16:13:02.471711065Z"
+    created: "2021-09-22T02:20:55.868496643Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: 8a99903c3592fa6cfc30394bf35fc2804c9d71e959f3581ed35d75142f9af903
@@ -1369,7 +1313,7 @@ entries:
     version: 1.2.10-main-132
   - apiVersion: v1
     appVersion: 1.2.9
-    created: "2021-09-21T16:13:02.478601884Z"
+    created: "2021-09-22T02:20:55.875091008Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: 2f5b5925ee0b201065591f53f404ff9db80de9fbf7f12f0a3984a08d4f472404
@@ -1381,7 +1325,7 @@ entries:
     version: 1.2.9
   - apiVersion: v1
     appVersion: 1.2.8
-    created: "2021-09-21T16:13:02.477948328Z"
+    created: "2021-09-22T02:20:55.873535271Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: 728bd563e93003d24c2995d2c59314d0b309fcd913b01e045fa70383754e2f40
@@ -1393,7 +1337,7 @@ entries:
     version: 1.2.8
   - apiVersion: v1
     appVersion: 1.2.7
-    created: "2021-09-21T16:13:02.477285555Z"
+    created: "2021-09-22T02:20:55.872495352Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: fc3a8fe41bb4514125271ebfc8fa1691ce60c65f5a5c41cff3d19bae63502a58
@@ -1405,7 +1349,7 @@ entries:
     version: 1.2.7
   - apiVersion: v1
     appVersion: 1.2.6
-    created: "2021-09-21T16:13:02.475643926Z"
+    created: "2021-09-22T02:20:55.871773193Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: 0d2b712325b15cf24aeb66b65695520e41743f797352c35bee79a9f54b692ffc
@@ -1417,7 +1361,7 @@ entries:
     version: 1.2.6
   - apiVersion: v1
     appVersion: 1.2.5
-    created: "2021-09-21T16:13:02.474907725Z"
+    created: "2021-09-22T02:20:55.871050312Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: 5c5d70d720b4e980394f6efd4b472d66957d9939c2a16a91547d1f275babe10e
@@ -1429,7 +1373,7 @@ entries:
     version: 1.2.5
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2021-09-21T16:13:02.474278269Z"
+    created: "2021-09-22T02:20:55.870456451Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: 4d6ff2b5625e6e716603f3217c092de14e61f1041171d0f444b5c821678f6163
@@ -1441,7 +1385,7 @@ entries:
     version: 1.2.4
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2021-09-21T16:13:02.473473994Z"
+    created: "2021-09-22T02:20:55.869760888Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: c07b5e97039193a2058588f4bf537ec317931dae797d7fc7e1343dbdbdf6be03
@@ -1453,7 +1397,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2021-09-21T16:13:02.472365503Z"
+    created: "2021-09-22T02:20:55.869152188Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: f6fff5f2968bfafb4687eb2c33ad3822482ac3272c67d865f372bdddcff97287
@@ -1465,7 +1409,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2021-09-21T16:13:02.471044188Z"
+    created: "2021-09-22T02:20:55.867786509Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: f0feefa9d266e6219f16114fbc52e84bae620dc2853e08715b049e23296176ec
@@ -1477,7 +1421,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.72
-    created: "2021-09-21T16:13:02.470436193Z"
+    created: "2021-09-22T02:20:55.867160518Z"
     description: Kubernetes controller to fetch GCP service account keyfiles for annotated
       secrets
     digest: d58c88bda65ab8b831a9af5ff222c079ec0bf0a390d7b1c6a87a43617246c934
@@ -1488,7 +1432,7 @@ entries:
   estafette-gke-node-pool-shifter:
   - apiVersion: v1
     appVersion: 1.2.5-main-74
-    created: "2021-09-21T16:13:02.4824652Z"
+    created: "2021-09-22T02:20:55.879052675Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: 6c7965a1d159d55ce83c01406c80dca44817f7ff200c0ff219ca3be91426524c
@@ -1500,7 +1444,7 @@ entries:
     version: 1.2.5-main-74
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2021-09-21T16:13:02.481836037Z"
+    created: "2021-09-22T02:20:55.878396938Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: 30cec570415e7a35d996fc8e0d1d007cc2c3cc9e98619979be25ab11c4ce4d4d
@@ -1512,7 +1456,7 @@ entries:
     version: 1.2.4
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2021-09-21T16:13:02.481159852Z"
+    created: "2021-09-22T02:20:55.877784369Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: c9d4e95e6d4a8f61d04d6d7f97c15adacb49151013283b672ea84541371a588f
@@ -1524,7 +1468,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2021-09-21T16:13:02.480511096Z"
+    created: "2021-09-22T02:20:55.877182036Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: 6e078aeceaab7062cb6dae22f9522f828707e432586512f4a981c33431a9735b
@@ -1536,7 +1480,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2021-09-21T16:13:02.479859581Z"
+    created: "2021-09-22T02:20:55.876530495Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: 9ed844f2b1b07748f65e1b048997120fa68dabe3670950a4f6d0ed6a793224a7
@@ -1548,7 +1492,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.42
-    created: "2021-09-21T16:13:02.479220065Z"
+    created: "2021-09-22T02:20:55.875938183Z"
     description: Kubernetes controller that can shift nodes from one node pool to
       another, to favour for example preemptibles over regular vms
     digest: dbd2bd8bce549a8f61115ffd06c1ad3901872726f30cc109132990f5e04eb733
@@ -1559,7 +1503,7 @@ entries:
   estafette-gke-preemptible-killer:
   - apiVersion: v1
     appVersion: 1.3.1-main-129
-    created: "2021-09-21T16:13:02.490897805Z"
+    created: "2021-09-22T02:20:55.886365833Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: cbba9ac05d17557d8b12a50ad9ca2a0f164f421ed8e0ab2677183d5b132ddd0f
@@ -1571,7 +1515,7 @@ entries:
     version: 1.3.1-main-129
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2021-09-21T16:13:02.489921213Z"
+    created: "2021-09-22T02:20:55.884569513Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 20404e3decd164a7738fb0fdf4fa9ab32b63a0fb94821c97a9fef590ffad078e
@@ -1583,7 +1527,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.2.7
-    created: "2021-09-21T16:13:02.488955071Z"
+    created: "2021-09-22T02:20:55.883945456Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: b5094aea1359607e0c6a13e44b55ec48c2e7179e4fa7211e8a851a1fc142d29d
@@ -1595,7 +1539,7 @@ entries:
     version: 1.2.7
   - apiVersion: v1
     appVersion: 1.2.6
-    created: "2021-09-21T16:13:02.48764432Z"
+    created: "2021-09-22T02:20:55.883357386Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 87a2f4458cf076d44492e61f86d551793dbce37a60992a0f4b074df297849fe0
@@ -1607,7 +1551,7 @@ entries:
     version: 1.2.6
   - apiVersion: v1
     appVersion: 1.2.5
-    created: "2021-09-21T16:13:02.486533205Z"
+    created: "2021-09-22T02:20:55.882745596Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: e498d91bef47d63a0d396f129c84ff908f9ceaa342e1f2dbe2ee011d2a419f5a
@@ -1619,7 +1563,7 @@ entries:
     version: 1.2.5
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2021-09-21T16:13:02.485765446Z"
+    created: "2021-09-22T02:20:55.882142194Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 7d167eefad7d34b7f938353ee8328789ad1d61362d3b1bf4f46e68ef98971302
@@ -1631,7 +1575,7 @@ entries:
     version: 1.2.4
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2021-09-21T16:13:02.484894636Z"
+    created: "2021-09-22T02:20:55.8815156Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 3a861e9cb178cda733b71cfc7f50b5fca8bec9e0de6f3cd57ff6b39ca76e9af0
@@ -1643,7 +1587,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2021-09-21T16:13:02.484296966Z"
+    created: "2021-09-22T02:20:55.880857861Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: 6862b3383f922ae18be6205a676d8b694718a1f8e5b190874cce892bf1c7eee5
@@ -1655,7 +1599,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2021-09-21T16:13:02.483695378Z"
+    created: "2021-09-22T02:20:55.880286279Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: b34345cf04a2878533a42edbae53bd7cead802d29583ffb1755506128eaab700
@@ -1667,7 +1611,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.68
-    created: "2021-09-21T16:13:02.48306199Z"
+    created: "2021-09-22T02:20:55.879670926Z"
     description: Kubernetes controller to spread preemption for preemtible VMs in
       GKE to avoid mass deletion after 24 hours
     digest: fd61c20a29367af38b24d438b91332f333aebdcd5a90a4f18b9ef318e0218f40
@@ -1678,7 +1622,7 @@ entries:
   estafette-google-cloud-dns:
   - apiVersion: v1
     appVersion: 1.2.5-main-59
-    created: "2021-09-21T16:13:02.49647053Z"
+    created: "2021-09-22T02:20:55.890431066Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: d1f23ce02624e5b5f4686f4248287e3fcaeb37e0afcc4d66f5bf7e29bcaec818
@@ -1690,7 +1634,7 @@ entries:
     version: 1.2.5-main-59
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2021-09-21T16:13:02.495500007Z"
+    created: "2021-09-22T02:20:55.889823239Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: 447ac04c408e2e12815c41ed856e94f1fe232d567cb3aa5e778c0bfafed3524c
@@ -1702,7 +1646,7 @@ entries:
     version: 1.2.4
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2021-09-21T16:13:02.494603948Z"
+    created: "2021-09-22T02:20:55.88922104Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: 5114ed3c19657b4c718c7da8d648acb3bd3f3db56127f7c6f92b1a2769055433
@@ -1714,7 +1658,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2021-09-21T16:13:02.49365525Z"
+    created: "2021-09-22T02:20:55.888609295Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: 4af2957491e30d2b1a2b92753c3cf0ad153826a557d0cf0af2d11c9928bc63e3
@@ -1726,7 +1670,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2021-09-21T16:13:02.492724868Z"
+    created: "2021-09-22T02:20:55.887965008Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: 43ee58048e210b57f429be1e3b9922ba474787ae402ce9114b16b17b643a0d10
@@ -1738,7 +1682,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.29
-    created: "2021-09-21T16:13:02.491792718Z"
+    created: "2021-09-22T02:20:55.887366408Z"
     description: Kubernetes controller to update dns record in a Google Cloud DNS
       zone for annotated services and ingresses
     digest: b1d5919ca3ce7af58fd1a30f266d996031e88650ea3d19150bc1078d997a1624
@@ -1749,7 +1693,7 @@ entries:
   estafette-k8s-hpa-scaler:
   - apiVersion: v1
     appVersion: 1.2.7-main-126
-    created: "2021-09-21T16:13:02.504308466Z"
+    created: "2021-09-22T02:20:55.895095024Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1762,7 +1706,7 @@ entries:
     version: 1.2.7-main-126
   - apiVersion: v1
     appVersion: 1.2.6
-    created: "2021-09-21T16:13:02.502561527Z"
+    created: "2021-09-22T02:20:55.894515798Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1775,7 +1719,7 @@ entries:
     version: 1.2.6
   - apiVersion: v1
     appVersion: 1.2.5
-    created: "2021-09-21T16:13:02.501640535Z"
+    created: "2021-09-22T02:20:55.893864175Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1788,7 +1732,7 @@ entries:
     version: 1.2.5
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2021-09-21T16:13:02.500752398Z"
+    created: "2021-09-22T02:20:55.893324137Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1801,7 +1745,7 @@ entries:
     version: 1.2.4
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2021-09-21T16:13:02.49987189Z"
+    created: "2021-09-22T02:20:55.892697407Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1814,7 +1758,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2021-09-21T16:13:02.499020155Z"
+    created: "2021-09-22T02:20:55.892190168Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1827,7 +1771,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2021-09-21T16:13:02.498169292Z"
+    created: "2021-09-22T02:20:55.891550529Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1840,7 +1784,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.84
-    created: "2021-09-21T16:13:02.497313512Z"
+    created: "2021-09-22T02:20:55.891016243Z"
     description: Kubernetes controller to set minimum replicas from a Prometheus query
       on annotated HorizontalPodAutoscalers to avoid collapsing deployments in case
       of errors
@@ -1852,7 +1796,7 @@ entries:
   estafette-k8s-node-compactor:
   - apiVersion: v1
     appVersion: 1.1.1-main-56
-    created: "2021-09-21T16:13:02.50619558Z"
+    created: "2021-09-22T02:20:55.897262358Z"
     description: Kubernetes controller to assist Cluster Autoscaler in compacting
       nodes more efficiently
     digest: 0d95d6e024dcced1091d1a8fb6cda65883cbd465002ab7baf0f5495244b29845
@@ -1864,7 +1808,7 @@ entries:
     version: 1.1.1-main-56
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2021-09-21T16:13:02.505246197Z"
+    created: "2021-09-22T02:20:55.895704593Z"
     description: Kubernetes controller to assist Cluster Autoscaler in compacting
       nodes more efficiently
     digest: 2e540127933325f5743b18a1e493190c3cbb315726cd8a463c21f08bdaea22a8
@@ -1877,7 +1821,7 @@ entries:
   estafette-letsencrypt-certificate:
   - apiVersion: v1
     appVersion: 1.2.11-main-224
-    created: "2021-09-21T16:13:02.509868506Z"
+    created: "2021-09-22T02:20:55.900257923Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 87dd82bba7a4da91eeaecae01aa1d1c19a2c2f57030c768faa5d1ef82a4c4fdb
@@ -1889,7 +1833,7 @@ entries:
     version: 1.2.11-main-224
   - apiVersion: v1
     appVersion: 1.2.10
-    created: "2021-09-21T16:13:02.508898995Z"
+    created: "2021-09-22T02:20:55.899634442Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 9da1fac3aec507a041b38fe469fbee80f17c78782d68338e5229ce71ee9cfdb3
@@ -1901,7 +1845,7 @@ entries:
     version: 1.2.10
   - apiVersion: v1
     appVersion: 1.2.9
-    created: "2021-09-21T16:13:02.517373769Z"
+    created: "2021-09-22T02:20:55.905052408Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: be5bf1acb771d1a55b58d4610d6f323c2eb4cef39d3a76ac65ba53aebb7c5f6a
@@ -1913,7 +1857,7 @@ entries:
     version: 1.2.9
   - apiVersion: v1
     appVersion: 1.2.8
-    created: "2021-09-21T16:13:02.516427185Z"
+    created: "2021-09-22T02:20:55.904456757Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 8e03c9c704f7296025632b10a95632ba7fdd683dd2a9d4eba9aee0c0fc230119
@@ -1925,7 +1869,7 @@ entries:
     version: 1.2.8
   - apiVersion: v1
     appVersion: 1.2.7
-    created: "2021-09-21T16:13:02.515502594Z"
+    created: "2021-09-22T02:20:55.903821482Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 355df971adb479dca23751aadc90c2b126522fde090bbb76b458c779b3e62ac1
@@ -1937,7 +1881,7 @@ entries:
     version: 1.2.7
   - apiVersion: v1
     appVersion: 1.2.6
-    created: "2021-09-21T16:13:02.51454197Z"
+    created: "2021-09-22T02:20:55.903230187Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 9e7fc53a96a5401d0d62e73b6fc0131265501b4bb6a905a6e4b039c7c5afc5c4
@@ -1949,7 +1893,7 @@ entries:
     version: 1.2.6
   - apiVersion: v1
     appVersion: 1.2.5
-    created: "2021-09-21T16:13:02.513604321Z"
+    created: "2021-09-22T02:20:55.902609701Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 6e37a41ce4bfd550d1266a5599ff9b86af19f43d5e7351f147a4894839a2c1bc
@@ -1961,7 +1905,7 @@ entries:
     version: 1.2.5
   - apiVersion: v1
     appVersion: 1.2.4
-    created: "2021-09-21T16:13:02.512630234Z"
+    created: "2021-09-22T02:20:55.902055305Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: ba421227185ec32e29d7123162b21fcde9631e55bc566f9fc257150c6918777c
@@ -1973,7 +1917,7 @@ entries:
     version: 1.2.4
   - apiVersion: v1
     appVersion: 1.2.3
-    created: "2021-09-21T16:13:02.511693458Z"
+    created: "2021-09-22T02:20:55.901432397Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 6c15f8fbb6f8ac26a4e97eb5ebaaa782cf81f4519ab799a4f4cb0b4893595392
@@ -1985,7 +1929,7 @@ entries:
     version: 1.2.3
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2021-09-21T16:13:02.510785689Z"
+    created: "2021-09-22T02:20:55.900827397Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 2914e73c211050a76899ac90db03fa2cb889c530a114a8c428fda91fddbc1962
@@ -1997,7 +1941,7 @@ entries:
     version: 1.2.2
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2021-09-21T16:13:02.507967017Z"
+    created: "2021-09-22T02:20:55.899039336Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 0e111ebf539fd38fa97eff07d6a370607a2f6ff1246f6689da941accb8b9ab26
@@ -2009,7 +1953,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.2.133
-    created: "2021-09-21T16:13:02.507055792Z"
+    created: "2021-09-22T02:20:55.898428445Z"
     description: Kubernetes controller to retrieve and renews tls certificates from
       Letsencrypt for annotated Kubernetes secrets
     digest: 266eb3d5510184e043d05d003355a94bf1312add7e6bcd4505ead781d975f931
@@ -2020,7 +1964,7 @@ entries:
   estafette-vulnerability-scanner:
   - apiVersion: v1
     appVersion: 0.1.17-main-155
-    created: "2021-09-21T16:13:02.525997967Z"
+    created: "2021-09-22T02:20:55.915366534Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: be2157c4b38a466d22e3ee811b1d92bde4559e4088318014a6c6ea76badcbc17
@@ -2032,7 +1976,7 @@ entries:
     version: 0.1.17-main-155
   - apiVersion: v1
     appVersion: 0.1.16
-    created: "2021-09-21T16:13:02.525174132Z"
+    created: "2021-09-22T02:20:55.914460712Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 9d5623881c85f68d1213a0d3d9b032ffa49225ce19a31a07d543732ce0c8bb28
@@ -2044,7 +1988,7 @@ entries:
     version: 0.1.16
   - apiVersion: v1
     appVersion: 0.1.15
-    created: "2021-09-21T16:13:02.524332297Z"
+    created: "2021-09-22T02:20:55.913564963Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 12c15ba2a9b7235d66fe939f57aee53c58109a539d8e167d57c97bfbf06a805d
@@ -2056,7 +2000,7 @@ entries:
     version: 0.1.15
   - apiVersion: v1
     appVersion: 0.1.14
-    created: "2021-09-21T16:13:02.523610237Z"
+    created: "2021-09-22T02:20:55.912304706Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 98f1e89213265972075af964647e243970d5798636435747ef2a527f2feda5fc
@@ -2068,7 +2012,7 @@ entries:
     version: 0.1.14
   - apiVersion: v1
     appVersion: 0.1.13
-    created: "2021-09-21T16:13:02.522831812Z"
+    created: "2021-09-22T02:20:55.911026043Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: a9bd04a7a78d1172bac9dbb1cf81bd368cae49f310092256a1e07a8c7dba9bf7
@@ -2080,7 +2024,7 @@ entries:
     version: 0.1.13
   - apiVersion: v1
     appVersion: 0.1.12
-    created: "2021-09-21T16:13:02.522179122Z"
+    created: "2021-09-22T02:20:55.910002864Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: e1904acd61b82882c972edaeedba8224a73fdf8d0b00061160f118eb4c98ac58
@@ -2092,7 +2036,7 @@ entries:
     version: 0.1.12
   - apiVersion: v1
     appVersion: 0.1.11
-    created: "2021-09-21T16:13:02.521550117Z"
+    created: "2021-09-22T02:20:55.908395639Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 4684f7e8f5b567351799622ef322f44b94b6765635666e57d5211e52e180ed13
@@ -2104,7 +2048,7 @@ entries:
     version: 0.1.11
   - apiVersion: v1
     appVersion: 0.1.10
-    created: "2021-09-21T16:13:02.520884037Z"
+    created: "2021-09-22T02:20:55.907010677Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 76c549d865e10469272c3bafeff4ebf62b3de092f96b6367310c94be68d94284
@@ -2116,7 +2060,7 @@ entries:
     version: 0.1.10
   - apiVersion: v1
     appVersion: 0.1.9
-    created: "2021-09-21T16:13:02.532226778Z"
+    created: "2021-09-22T02:20:55.920864275Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 4e50f388ddbbf5a03bd320dc0ba74305e33321ba90cee08aef5f600a16b196f4
@@ -2128,7 +2072,7 @@ entries:
     version: 0.1.9
   - apiVersion: v1
     appVersion: 0.1.8
-    created: "2021-09-21T16:13:02.53155984Z"
+    created: "2021-09-22T02:20:55.920162193Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 6ab8d9ee8d1de2dc043bc08e7cb400fae73aaa759f63e0453718519807cfddc5
@@ -2140,7 +2084,7 @@ entries:
     version: 0.1.8
   - apiVersion: v1
     appVersion: 0.1.7
-    created: "2021-09-21T16:13:02.530243148Z"
+    created: "2021-09-22T02:20:55.919408242Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 1d11560aba4c3c573a148d1aa79a341b1d4272f512fcf43e7d0c7f97ba5b96c8
@@ -2152,7 +2096,7 @@ entries:
     version: 0.1.7
   - apiVersion: v1
     appVersion: 0.1.6
-    created: "2021-09-21T16:13:02.529080452Z"
+    created: "2021-09-22T02:20:55.918676111Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 1073d3f899e2a0579e3b93a27d355bedf49ddbedb8b3a45e034592ea39d62d8a
@@ -2164,7 +2108,7 @@ entries:
     version: 0.1.6
   - apiVersion: v1
     appVersion: 0.1.5
-    created: "2021-09-21T16:13:02.528490947Z"
+    created: "2021-09-22T02:20:55.918085031Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 04100898c43ef2ebca8f174be5f4b3075acc7f77061baf2c1e843244d9cc68cd
@@ -2176,7 +2120,7 @@ entries:
     version: 0.1.5
   - apiVersion: v1
     appVersion: 0.1.4
-    created: "2021-09-21T16:13:02.527878617Z"
+    created: "2021-09-22T02:20:55.917355332Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 82edd5211463e65005a16f142a97db248e3b4090e6943b92b1af45fffc698f4b
@@ -2188,7 +2132,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: 0.1.3
-    created: "2021-09-21T16:13:02.527251805Z"
+    created: "2021-09-22T02:20:55.916639059Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: a9604146aa8ea10eedc27d7fb6a0ba9af7322c0d6a051c7b0685d192b9747e87
@@ -2200,7 +2144,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: 0.1.2
-    created: "2021-09-21T16:13:02.526615293Z"
+    created: "2021-09-22T02:20:55.916056022Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 0cd8a679bdf8633a0526290a8370622ce0f5da58e6a44b23370e74e480cf22ee
@@ -2212,7 +2156,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.1.1
-    created: "2021-09-21T16:13:02.520186385Z"
+    created: "2021-09-22T02:20:55.906253139Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 79c5901f713c2fed0967f5e9e86b95f74954fdd72b0ed826d5fdf78cdf107862
@@ -2224,7 +2168,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2021-09-21T16:13:02.518718699Z"
+    created: "2021-09-22T02:20:55.905644092Z"
     description: An application that regularly scans all containers in a Kubernetes
       cluster for vulnerabilities
     digest: 9212b301595ae76a6efd1776217671237d7c9c2c29cc2f320d079968e5d7f103
@@ -2237,7 +2181,7 @@ entries:
   istio-base:
   - apiVersion: v1
     appVersion: 1.11.1
-    created: "2021-09-21T16:13:02.534510846Z"
+    created: "2021-09-22T02:20:55.924230021Z"
     description: Helm chart for deploying Istio cluster resources and CRDs
     digest: ed847c4af09dc1450ac26d85c4bef0a0bce381615da79b70c78cafb36f101fb0
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -2252,7 +2196,7 @@ entries:
   istio-cni:
   - apiVersion: v1
     appVersion: 1.11.1
-    created: "2021-09-21T16:13:02.535089774Z"
+    created: "2021-09-22T02:20:55.92491834Z"
     description: Helm chart for istio-cni components
     digest: c180d2877527999596f87861ffeee5f12a4d4e978028b96dec379f7367c9f265
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -2268,7 +2212,7 @@ entries:
   istio-discovery:
   - apiVersion: v1
     appVersion: 1.11.1
-    created: "2021-09-21T16:13:02.539058181Z"
+    created: "2021-09-22T02:20:55.927933168Z"
     description: Helm chart for istio control plane
     digest: 83ccc3aa666bb3318e08b85609543e8268b316c4d4653c2e25c2e8d05f049cd7
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -2285,7 +2229,7 @@ entries:
   istio-egress:
   - apiVersion: v1
     appVersion: 1.11.1
-    created: "2021-09-21T16:13:02.540354807Z"
+    created: "2021-09-22T02:20:55.929188306Z"
     description: Helm chart for deploying Istio gateways
     digest: acc6821e56d573ef97b58fec9bbfe596e1ccdab5db1ef3cf365011c24a364671
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -2302,7 +2246,7 @@ entries:
   istio-ingress:
   - apiVersion: v1
     appVersion: 1.11.1
-    created: "2021-09-21T16:13:02.541543699Z"
+    created: "2021-09-22T02:20:55.930509963Z"
     description: Helm chart for deploying Istio gateways
     digest: dafeaaea265a5335d20cbbf299e87c32dbb19cc57d846ca204d946f1c1c4d45f
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -2319,7 +2263,7 @@ entries:
   istio-operator:
   - apiVersion: v1
     appVersion: 1.11.1
-    created: "2021-09-21T16:13:02.542075844Z"
+    created: "2021-09-22T02:20:55.931035501Z"
     description: Helm chart for deploying Istio operator
     digest: fee7b471216b72cd6eb6e0ca118b6757541b28b00fb739a0a16a3841b7e23f14
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -2335,7 +2279,7 @@ entries:
   istiod-remote:
   - apiVersion: v1
     appVersion: 1.11.1
-    created: "2021-09-21T16:13:02.544640601Z"
+    created: "2021-09-22T02:20:55.933746256Z"
     description: Helm chart for a remote cluster using an external istio control plane
     digest: 69ee792701bba7f0c091ea44a832d304741d4e876a7c2ac2928db44c0b3ea374
     icon: https://istio.io/latest/favicons/android-192x192.png
@@ -2351,7 +2295,7 @@ entries:
   k8s-node-termination-handler:
   - apiVersion: v2
     appVersion: 0.1.2-main-11
-    created: "2021-09-21T16:13:02.545985627Z"
+    created: "2021-09-22T02:20:55.935272512Z"
     description: A Helm chart for Kubernetes
     digest: b18bc8c73156ab83fbfa616a698bece086790bfbedcbfeefcb67b8e30d46f513
     name: k8s-node-termination-handler
@@ -2361,7 +2305,7 @@ entries:
     version: 0.1.2-main-11
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2021-09-21T16:13:02.545554325Z"
+    created: "2021-09-22T02:20:55.934721333Z"
     description: A Helm chart for Kubernetes
     digest: 45f7929a2f8f3bc846b8d71df1858ff8739ff729a1a8ccbd61e69f752ed60047
     name: k8s-node-termination-handler
@@ -2371,7 +2315,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-09-21T16:13:02.545088384Z"
+    created: "2021-09-22T02:20:55.934233837Z"
     description: A Helm chart for Kubernetes
     digest: 35e772da52183dd6203ab2c51ee4163264295b677239dc892301a466744d7761
     name: k8s-node-termination-handler
@@ -2379,4 +2323,4 @@ entries:
     urls:
     - https://helm.estafette.io/charts/k8s-node-termination-handler-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-21T16:13:02.00878868Z"
+generated: "2021-09-22T02:20:55.417247091Z"
